@@ -48,7 +48,7 @@
         <div class="stat">
           <span>当前优先处理</span>
           <strong>403 篇科学空间 AI 子集</strong>
-          <small>论文候选 27 篇，待确认后纳入</small>
+          <small>论文候选 47 篇，待确认后纳入</small>
         </div>
         <canvas id="knowledgeCanvas" width="420" height="180" aria-label="知识网络示意"></canvas>
       </section>
@@ -3161,67 +3161,131 @@
 
       <section id="paper-candidates" class="section reading pending">
         <h1 id="大模型论文候选清单">大模型论文候选清单</h1>
-<p>状态：待用户确认，尚未纳入 <code>raw/</code> 或 <code>wiki/</code>。</p>
+<p>状态：部分已确认，部分待用户确认；确认前不纳入正式 <code>raw/</code> 或 <code>wiki/</code>。</p>
 <h2 id="处理规则">处理规则</h2>
 <ul>
-<li>本清单只是候选，不代表已经进入知识库。</li>
 <li>只有用户明确确认某篇或某一组论文后，才抓取原文、建立来源卡片、生成 wiki 页面。</li>
-<li>确认前可以调整范围：只做 LLM 基础、训练、对齐、推理、Agent、长上下文、多模态、MoE、国产模型等。</li>
-<li>每篇论文纳入后都要保留 arXiv、官方页面或论文 PDF 链接。</li>
+<li>技术报告、system card、model card 都可以进入候选，但进入 wiki 时会标注文档类型。</li>
+<li>每篇论文或报告纳入后都要保留 arXiv、官方页面或 PDF 链接。</li>
+<li>用户明确排除的论文保留在“不纳入”区，避免后续误加。</li>
 </ul>
-<h2 id="第一批候选">第一批候选</h2>
-<h3 id="基础架构与预训练">基础架构与预训练</h3>
+<h2 id="已确认纳入下一批知识库">已确认纳入下一批知识库</h2>
+<h3 id="高效微调与优化">高效微调与优化</h3>
 <ul class="task-list">
-<li><label><input type="checkbox" />Attention Is All You Need (Transformer, 2017) - <a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></label></li>
-<li><label><input type="checkbox" />Improving Language Understanding by Generative Pre-Training (GPT-1, 2018) - <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf</a></label></li>
-<li><label><input type="checkbox" />BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018) - <a href="https://arxiv.org/abs/1810.04805">https://arxiv.org/abs/1810.04805</a></label></li>
-<li><label><input type="checkbox" />Language Models are Unsupervised Multitask Learners (GPT-2, 2019) - <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf</a></label></li>
-<li><label><input type="checkbox" />Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5, 2019) - <a href="https://arxiv.org/abs/1910.10683">https://arxiv.org/abs/1910.10683</a></label></li>
-<li><label><input type="checkbox" />Language Models are Few-Shot Learners (GPT-3, 2020) - <a href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a></label></li>
-<li><label><input type="checkbox" />PaLM: Scaling Language Modeling with Pathways (2022) - <a href="https://arxiv.org/abs/2204.02311">https://arxiv.org/abs/2204.02311</a></label></li>
-<li><label><input type="checkbox" />LLaMA: Open and Efficient Foundation Language Models (2023) - <a href="https://arxiv.org/abs/2302.13971">https://arxiv.org/abs/2302.13971</a></label></li>
+<li><label><input type="checkbox" checked="" /><code>P19</code> LoRA: Low-Rank Adaptation of Large Language Models (2021) - <a href="https://arxiv.org/abs/2106.09685">https://arxiv.org/abs/2106.09685</a></label></li>
+<li><label><input type="checkbox" checked="" /><code>P20</code> QLoRA: Efficient Finetuning of Quantized LLMs (2023) - <a href="https://arxiv.org/abs/2305.14314">https://arxiv.org/abs/2305.14314</a></label></li>
+<li><label><input type="checkbox" checked="" /><code>O01</code> Muon: An optimizer for hidden layers in neural networks (2024, original writeup) - <a href="https://kellerjordan.github.io/posts/muon/">https://kellerjordan.github.io/posts/muon/</a></label></li>
+<li><label><input type="checkbox" checked="" /><code>O02</code> Muon is Scalable for LLM Training (2025) - <a href="https://arxiv.org/abs/2502.16982">https://arxiv.org/abs/2502.16982</a></label></li>
 </ul>
-<h3 id="scaling-laws-与训练配比">Scaling Laws 与训练配比</h3>
-<ul class="task-list">
-<li><label><input type="checkbox" />Scaling Laws for Neural Language Models (2020) - <a href="https://arxiv.org/abs/2001.08361">https://arxiv.org/abs/2001.08361</a></label></li>
-<li><label><input type="checkbox" />Training Compute-Optimal Large Language Models (Chinchilla, 2022) - <a href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></label></li>
-<li><label><input type="checkbox" />Scaling Laws for Autoregressive Generative Modeling (2024) - <a href="https://arxiv.org/abs/2406.12907">https://arxiv.org/abs/2406.12907</a></label></li>
+<h2 id="明确暂不纳入">明确暂不纳入</h2>
+<ul>
+<li><code>P21</code> FlashAttention: Fast and Memory-Efficient Exact Attention (2022) - <a href="https://arxiv.org/abs/2205.14135">https://arxiv.org/abs/2205.14135</a></li>
 </ul>
-<h3 id="对齐与偏好优化">对齐与偏好优化</h3>
+<h2 id="待确认基础架构与预训练">待确认：基础架构与预训练</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />Training Language Models to Follow Instructions with Human Feedback (InstructGPT, 2022) - <a href="https://arxiv.org/abs/2203.02155">https://arxiv.org/abs/2203.02155</a></label></li>
-<li><label><input type="checkbox" />Constitutional AI: Harmlessness from AI Feedback (2022) - <a href="https://arxiv.org/abs/2212.08073">https://arxiv.org/abs/2212.08073</a></label></li>
-<li><label><input type="checkbox" />Direct Preference Optimization: Your Language Model is Secretly a Reward Model (2023) - <a href="https://arxiv.org/abs/2305.18290">https://arxiv.org/abs/2305.18290</a></label></li>
+<li><label><input type="checkbox" /><code>P01</code> Attention Is All You Need (Transformer, 2017) - <a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></label></li>
+<li><label><input type="checkbox" /><code>P02</code> Improving Language Understanding by Generative Pre-Training (GPT-1, 2018) - <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf</a></label></li>
+<li><label><input type="checkbox" /><code>P03</code> BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018) - <a href="https://arxiv.org/abs/1810.04805">https://arxiv.org/abs/1810.04805</a></label></li>
+<li><label><input type="checkbox" /><code>P04</code> Language Models are Unsupervised Multitask Learners (GPT-2, 2019) - <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf</a></label></li>
+<li><label><input type="checkbox" /><code>P05</code> Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5, 2019) - <a href="https://arxiv.org/abs/1910.10683">https://arxiv.org/abs/1910.10683</a></label></li>
+<li><label><input type="checkbox" /><code>P06</code> Language Models are Few-Shot Learners (GPT-3, 2020) - <a href="https://arxiv.org/abs/2005.14165">https://arxiv.org/abs/2005.14165</a></label></li>
+<li><label><input type="checkbox" /><code>P07</code> PaLM: Scaling Language Modeling with Pathways (2022) - <a href="https://arxiv.org/abs/2204.02311">https://arxiv.org/abs/2204.02311</a></label></li>
+<li><label><input type="checkbox" /><code>P08</code> LLaMA: Open and Efficient Foundation Language Models (2023) - <a href="https://arxiv.org/abs/2302.13971">https://arxiv.org/abs/2302.13971</a></label></li>
 </ul>
-<h3 id="推理工具与-agent">推理、工具与 Agent</h3>
+<h2 id="待确认scaling-laws-与训练配比">待确认：Scaling Laws 与训练配比</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022) - <a href="https://arxiv.org/abs/2201.11903">https://arxiv.org/abs/2201.11903</a></label></li>
-<li><label><input type="checkbox" />Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022) - <a href="https://arxiv.org/abs/2203.11171">https://arxiv.org/abs/2203.11171</a></label></li>
-<li><label><input type="checkbox" />ReAct: Synergizing Reasoning and Acting in Language Models (2022) - <a href="https://arxiv.org/abs/2210.03629">https://arxiv.org/abs/2210.03629</a></label></li>
-<li><label><input type="checkbox" />Toolformer: Language Models Can Teach Themselves to Use Tools (2023) - <a href="https://arxiv.org/abs/2302.04761">https://arxiv.org/abs/2302.04761</a></label></li>
+<li><label><input type="checkbox" /><code>P09</code> Scaling Laws for Neural Language Models (2020) - <a href="https://arxiv.org/abs/2001.08361">https://arxiv.org/abs/2001.08361</a></label></li>
+<li><label><input type="checkbox" /><code>P10</code> Training Compute-Optimal Large Language Models (Chinchilla, 2022) - <a href="https://arxiv.org/abs/2203.15556">https://arxiv.org/abs/2203.15556</a></label></li>
+<li><label><input type="checkbox" /><code>P11</code> Scaling Laws for Autoregressive Generative Modeling (2024) - <a href="https://arxiv.org/abs/2406.12907">https://arxiv.org/abs/2406.12907</a></label></li>
 </ul>
-<h3 id="高效微调与模型压缩">高效微调与模型压缩</h3>
+<h2 id="待确认对齐与偏好优化">待确认：对齐与偏好优化</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />LoRA: Low-Rank Adaptation of Large Language Models (2021) - <a href="https://arxiv.org/abs/2106.09685">https://arxiv.org/abs/2106.09685</a></label></li>
-<li><label><input type="checkbox" />QLoRA: Efficient Finetuning of Quantized LLMs (2023) - <a href="https://arxiv.org/abs/2305.14314">https://arxiv.org/abs/2305.14314</a></label></li>
-<li><label><input type="checkbox" />FlashAttention: Fast and Memory-Efficient Exact Attention (2022) - <a href="https://arxiv.org/abs/2205.14135">https://arxiv.org/abs/2205.14135</a></label></li>
+<li><label><input type="checkbox" /><code>P12</code> Training Language Models to Follow Instructions with Human Feedback (InstructGPT, 2022) - <a href="https://arxiv.org/abs/2203.02155">https://arxiv.org/abs/2203.02155</a></label></li>
+<li><label><input type="checkbox" /><code>P13</code> Constitutional AI: Harmlessness from AI Feedback (2022) - <a href="https://arxiv.org/abs/2212.08073">https://arxiv.org/abs/2212.08073</a></label></li>
+<li><label><input type="checkbox" /><code>P14</code> Direct Preference Optimization: Your Language Model is Secretly a Reward Model (2023) - <a href="https://arxiv.org/abs/2305.18290">https://arxiv.org/abs/2305.18290</a></label></li>
 </ul>
-<h3 id="moe长上下文与替代架构">MoE、长上下文与替代架构</h3>
+<h2 id="待确认推理工具与-agent">待确认：推理、工具与 Agent</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (2021) - <a href="https://arxiv.org/abs/2101.03961">https://arxiv.org/abs/2101.03961</a></label></li>
-<li><label><input type="checkbox" />GLaM: Efficient Scaling of Language Models with Mixture-of-Experts (2021) - <a href="https://arxiv.org/abs/2112.06905">https://arxiv.org/abs/2112.06905</a></label></li>
-<li><label><input type="checkbox" />RoFormer: Enhanced Transformer with Rotary Position Embedding (2021) - <a href="https://arxiv.org/abs/2104.09864">https://arxiv.org/abs/2104.09864</a></label></li>
-<li><label><input type="checkbox" />Mamba: Linear-Time Sequence Modeling with Selective State Spaces (2023) - <a href="https://arxiv.org/abs/2312.00752">https://arxiv.org/abs/2312.00752</a></label></li>
+<li><label><input type="checkbox" /><code>P15</code> Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022) - <a href="https://arxiv.org/abs/2201.11903">https://arxiv.org/abs/2201.11903</a></label></li>
+<li><label><input type="checkbox" /><code>P16</code> Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022) - <a href="https://arxiv.org/abs/2203.11171">https://arxiv.org/abs/2203.11171</a></label></li>
+<li><label><input type="checkbox" /><code>P17</code> ReAct: Synergizing Reasoning and Acting in Language Models (2022) - <a href="https://arxiv.org/abs/2210.03629">https://arxiv.org/abs/2210.03629</a></label></li>
+<li><label><input type="checkbox" /><code>P18</code> Toolformer: Language Models Can Teach Themselves to Use Tools (2023) - <a href="https://arxiv.org/abs/2302.04761">https://arxiv.org/abs/2302.04761</a></label></li>
 </ul>
-<h3 id="检索增强与知识密集任务">检索增强与知识密集任务</h3>
+<h2 id="待确认moe长上下文与替代架构">待确认：MoE、长上下文与替代架构</h2>
 <ul class="task-list">
-<li><label><input type="checkbox" />Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) - <a href="https://arxiv.org/abs/2005.11401">https://arxiv.org/abs/2005.11401</a></label></li>
-<li><label><input type="checkbox" />REALM: Retrieval-Augmented Language Model Pre-Training (2020) - <a href="https://arxiv.org/abs/2002.08909">https://arxiv.org/abs/2002.08909</a></label></li>
+<li><label><input type="checkbox" /><code>P22</code> Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (2021) - <a href="https://arxiv.org/abs/2101.03961">https://arxiv.org/abs/2101.03961</a></label></li>
+<li><label><input type="checkbox" /><code>P23</code> GLaM: Efficient Scaling of Language Models with Mixture-of-Experts (2021) - <a href="https://arxiv.org/abs/2112.06905">https://arxiv.org/abs/2112.06905</a></label></li>
+<li><label><input type="checkbox" /><code>P24</code> RoFormer: Enhanced Transformer with Rotary Position Embedding (2021) - <a href="https://arxiv.org/abs/2104.09864">https://arxiv.org/abs/2104.09864</a></label></li>
+<li><label><input type="checkbox" /><code>P25</code> Mamba: Linear-Time Sequence Modeling with Selective State Spaces (2023) - <a href="https://arxiv.org/abs/2312.00752">https://arxiv.org/abs/2312.00752</a></label></li>
+<li><label><input type="checkbox" /><code>P28</code> Mistral 7B (2023) - <a href="https://arxiv.org/abs/2310.06825">https://arxiv.org/abs/2310.06825</a></label></li>
+<li><label><input type="checkbox" /><code>P29</code> Mixtral of Experts (2024) - <a href="https://arxiv.org/abs/2401.04088">https://arxiv.org/abs/2401.04088</a></label></li>
+</ul>
+<h2 id="待确认检索增强与知识密集任务">待确认：检索增强与知识密集任务</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>P26</code> Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) - <a href="https://arxiv.org/abs/2005.11401">https://arxiv.org/abs/2005.11401</a></label></li>
+<li><label><input type="checkbox" /><code>P27</code> REALM: Retrieval-Augmented Language Model Pre-Training (2020) - <a href="https://arxiv.org/abs/2002.08909">https://arxiv.org/abs/2002.08909</a></label></li>
+</ul>
+<h2 id="待确认主流模型技术报告与系统卡">待确认：主流模型技术报告与系统卡</h2>
+<h3 id="openai">OpenAI</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M01</code> GPT-4 Technical Report (2023) - <a href="https://arxiv.org/abs/2303.08774">https://arxiv.org/abs/2303.08774</a></label></li>
+<li><label><input type="checkbox" /><code>M02</code> GPT-4o System Card (2024) - <a href="https://cdn.openai.com/gpt-4o-system-card.pdf">https://cdn.openai.com/gpt-4o-system-card.pdf</a></label></li>
+<li><label><input type="checkbox" /><code>M03</code> OpenAI o1 System Card (2024) - <a href="https://arxiv.org/abs/2412.16720">https://arxiv.org/abs/2412.16720</a></label></li>
+<li><label><input type="checkbox" /><code>M04</code> GPT-5 System Card (2025) - <a href="https://openai.com/index/gpt-5-system-card/">https://openai.com/index/gpt-5-system-card/</a></label></li>
+<li><label><input type="checkbox" /><code>M05</code> GPT-5.5 System Card (2026) - <a href="https://openai.com/index/gpt-5-5-system-card/">https://openai.com/index/gpt-5-5-system-card/</a></label></li>
+<li><label><input type="checkbox" /><code>M06</code> GPT-5.6 Preview System Card (2026) - <a href="https://deploymentsafety.openai.com/gpt-5-6-preview">https://deploymentsafety.openai.com/gpt-5-6-preview</a></label></li>
+</ul>
+<h3 id="google-deepmind">Google DeepMind</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M07</code> Gemini: A Family of Highly Capable Multimodal Models (2023) - <a href="https://arxiv.org/abs/2312.11805">https://arxiv.org/abs/2312.11805</a></label></li>
+<li><label><input type="checkbox" /><code>M08</code> Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context (2024) - <a href="https://arxiv.org/abs/2403.05530">https://arxiv.org/abs/2403.05530</a></label></li>
+<li><label><input type="checkbox" /><code>M09</code> Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities (2025) - <a href="https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf">https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf</a></label></li>
+</ul>
+<h3 id="anthropic">Anthropic</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M10</code> The Claude 3 Model Family: Opus, Sonnet, Haiku (2024) - <a href="https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf">https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf</a></label></li>
+<li><label><input type="checkbox" /><code>M11</code> Claude 3.7 Sonnet System Card (2025) - <a href="https://www.anthropic.com/claude-3-7-sonnet-system-card">https://www.anthropic.com/claude-3-7-sonnet-system-card</a></label></li>
+<li><label><input type="checkbox" /><code>M12</code> Claude Opus 4 &amp; Claude Sonnet 4 System Card (2025) - <a href="https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47/claude-opus-4-and-claude-sonnet-4-system-card.pdf">https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47/claude-opus-4-and-claude-sonnet-4-system-card.pdf</a></label></li>
+<li><label><input type="checkbox" /><code>M13</code> Claude Sonnet 5 System Card (2026) - <a href="https://www-cdn.anthropic.com/480e0bb54327b9622282e9c39a83a4f490ed377e/Claude%20Sonnet%205%20System%20Card.pdf">https://www-cdn.anthropic.com/480e0bb54327b9622282e9c39a83a4f490ed377e/Claude%20Sonnet%205%20System%20Card.pdf</a></label></li>
+</ul>
+<h3 id="meta">Meta</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M14</code> The Llama 3 Herd of Models (2024) - <a href="https://arxiv.org/abs/2407.21783">https://arxiv.org/abs/2407.21783</a></label></li>
+</ul>
+<h3 id="alibaba-qwen">Alibaba Qwen</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M15</code> Qwen2.5 Technical Report (2024) - <a href="https://arxiv.org/abs/2412.15115">https://arxiv.org/abs/2412.15115</a></label></li>
+<li><label><input type="checkbox" /><code>M16</code> Qwen3 Technical Report (2025) - <a href="https://arxiv.org/abs/2505.09388">https://arxiv.org/abs/2505.09388</a></label></li>
+</ul>
+<h3 id="deepseek">DeepSeek</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M17</code> DeepSeek-V3 Technical Report (2024) - <a href="https://arxiv.org/abs/2412.19437">https://arxiv.org/abs/2412.19437</a></label></li>
+<li><label><input type="checkbox" /><code>M18</code> DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (2025) - <a href="https://arxiv.org/abs/2501.12948">https://arxiv.org/abs/2501.12948</a></label></li>
+</ul>
+<h3 id="moonshot-ai--kimi">Moonshot AI / Kimi</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M19</code> Kimi K2: Open Agentic Intelligence (2025) - <a href="https://arxiv.org/abs/2507.20534">https://arxiv.org/abs/2507.20534</a></label></li>
+</ul>
+<h3 id="zhipu--glm">Zhipu / GLM</h3>
+<ul class="task-list">
+<li><label><input type="checkbox" /><code>M20</code> ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools (2024) - <a href="https://arxiv.org/abs/2406.12793">https://arxiv.org/abs/2406.12793</a></label></li>
+<li><label><input type="checkbox" /><code>M21</code> GLM-4.5: Agentic, Reasoning, and Coding Foundation Models (2025) - <a href="https://arxiv.org/abs/2508.06471">https://arxiv.org/abs/2508.06471</a></label></li>
 </ul>
 <h2 id="用户确认区">用户确认区</h2>
-<p>请在这里勾选或直接告诉我要纳入的论文：</p>
+<p>下一步默认纳入：</p>
 <ul class="task-list">
-<li><p><label><input type="checkbox" />待确认</label></p></li>
+<li><label><input type="checkbox" checked="" /><code>P19</code></label></li>
+<li><label><input type="checkbox" checked="" /><code>P20</code></label></li>
+<li><label><input type="checkbox" checked="" /><code>O01</code></label></li>
+<li><label><input type="checkbox" checked="" /><code>O02</code></label></li>
+</ul>
+<p>明确不纳入：</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" /><code>P21</code></label></li>
+</ul>
+<p>待用户继续选择：</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />从 <code>M01</code>-<code>M21</code> 中选择要纳入的主流模型技术报告。</label></li>
 </ul>
 
       </section>
