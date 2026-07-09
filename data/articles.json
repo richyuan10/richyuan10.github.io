@@ -12,6 +12,8 @@
       "prompting"
     ],
     "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -27,6 +29,8 @@
       "learning-dynamics"
     ],
     "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -41,6 +45,8 @@
       "long-read"
     ],
     "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -57,6 +63,8 @@
       "long-read"
     ],
     "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -72,6 +80,8 @@
       "factuality"
     ],
     "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -84,6 +94,8 @@
       "video-generation"
     ],
     "url": "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -97,6 +109,8 @@
       "human-ai"
     ],
     "url": "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "数据与低资源学习"
   },
   {
@@ -113,6 +127,8 @@
       "redteam"
     ],
     "url": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -128,6 +144,8 @@
       "prompting"
     ],
     "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -143,6 +161,8 @@
       "prompting"
     ],
     "url": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -159,6 +179,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -175,6 +197,8 @@
       "foundation"
     ],
     "url": "https://lilianweng.github.io/posts/2023-01-10-inference-optimization/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -188,6 +212,8 @@
       "learning-dynamics"
     ],
     "url": "https://lilianweng.github.io/posts/2022-09-08-ntk/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -201,6 +227,8 @@
       "vision-model"
     ],
     "url": "https://lilianweng.github.io/posts/2022-06-09-vlm/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -215,6 +243,8 @@
       "data-quality"
     ],
     "url": "https://lilianweng.github.io/posts/2022-04-15-data-gen/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "数据与低资源学习"
   },
   {
@@ -227,6 +257,8 @@
       "active-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2022-02-20-active-learning/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "数据与低资源学习"
   },
   {
@@ -239,6 +271,8 @@
       "unsupervised-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2021-12-05-semi-supervised/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "数据与低资源学习"
   },
   {
@@ -252,6 +286,8 @@
       "foundation"
     ],
     "url": "https://lilianweng.github.io/posts/2021-09-25-train-large/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -265,6 +301,8 @@
       "image-generation"
     ],
     "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -280,6 +318,8 @@
       "data-augmentation"
     ],
     "url": "https://lilianweng.github.io/posts/2021-05-31-contrastive/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -295,6 +335,8 @@
       "safety"
     ],
     "url": "https://lilianweng.github.io/posts/2021-03-21-lm-toxicity/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -311,6 +353,8 @@
       "long-read"
     ],
     "url": "https://lilianweng.github.io/posts/2021-01-02-controllable-text-generation/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -325,6 +369,8 @@
       "transformer"
     ],
     "url": "https://lilianweng.github.io/posts/2020-10-29-odqa/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -339,6 +385,8 @@
       "auto-ml"
     ],
     "url": "https://lilianweng.github.io/posts/2020-08-06-nas/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -352,6 +400,8 @@
       "long-read"
     ],
     "url": "https://lilianweng.github.io/posts/2020-06-07-exploration-drl/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -367,6 +417,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -380,6 +432,8 @@
       "meta-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2020-01-29-curriculum-rl/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -396,6 +450,8 @@
       "unsupervised-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2019-11-10-self-supervised/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -408,6 +464,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -420,6 +478,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2019-06-23-meta-rl/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -433,6 +493,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2019-05-05-domain-randomization/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -446,6 +508,8 @@
       "learning-dynamics"
     ],
     "url": "https://lilianweng.github.io/posts/2019-03-14-overfit/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -462,6 +526,8 @@
       "language-model"
     ],
     "url": "https://lilianweng.github.io/posts/2019-01-31-lm/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -475,6 +541,8 @@
       "vision-model"
     ],
     "url": "https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "视觉与目标检测"
   },
   {
@@ -487,6 +555,8 @@
       "long-read"
     ],
     "url": "https://lilianweng.github.io/posts/2018-11-30-meta-learning/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "其他"
   },
   {
@@ -501,6 +571,8 @@
       "math-heavy"
     ],
     "url": "https://lilianweng.github.io/posts/2018-10-13-flow-models/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -514,6 +586,8 @@
       "image-generation"
     ],
     "url": "https://lilianweng.github.io/posts/2018-08-12-vae/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -528,6 +602,8 @@
       "rnn"
     ],
     "url": "https://lilianweng.github.io/posts/2018-06-24-attention/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -541,6 +617,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2018-05-05-drl-implementation/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -554,6 +632,8 @@
       "math-heavy"
     ],
     "url": "https://lilianweng.github.io/posts/2018-04-08-policy-gradient/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -567,6 +647,8 @@
       "math-heavy"
     ],
     "url": "https://lilianweng.github.io/posts/2018-02-19-rl-overview/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -580,6 +662,8 @@
       "reinforcement-learning"
     ],
     "url": "https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "强化学习与决策"
   },
   {
@@ -593,6 +677,8 @@
       "vision-model"
     ],
     "url": "https://lilianweng.github.io/posts/2017-12-31-object-recognition-part-3/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "视觉与目标检测"
   },
   {
@@ -606,6 +692,8 @@
       "vision-model"
     ],
     "url": "https://lilianweng.github.io/posts/2017-12-15-object-recognition-part-2/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "视觉与目标检测"
   },
   {
@@ -619,6 +707,8 @@
       "vision-model"
     ],
     "url": "https://lilianweng.github.io/posts/2017-10-29-object-recognition-part-1/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "视觉与目标检测"
   },
   {
@@ -631,6 +721,8 @@
       "language-model"
     ],
     "url": "https://lilianweng.github.io/posts/2017-10-15-word-embedding/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "LLM、Agent 与 AI 安全"
   },
   {
@@ -643,6 +735,8 @@
       "foundation"
     ],
     "url": "https://lilianweng.github.io/posts/2017-09-28-information-bottleneck/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -658,6 +752,8 @@
       "math-heavy"
     ],
     "url": "https://lilianweng.github.io/posts/2017-08-20-gan/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -669,6 +765,8 @@
       "foundation"
     ],
     "url": "https://lilianweng.github.io/posts/2017-08-01-interpretation/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
   },
   {
@@ -682,6 +780,8 @@
       "tensorflow"
     ],
     "url": "https://lilianweng.github.io/posts/2017-07-22-stock-rnn-part-2/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -695,6 +795,8 @@
       "tensorflow"
     ],
     "url": "https://lilianweng.github.io/posts/2017-07-08-stock-rnn-part-1/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "生成模型"
   },
   {
@@ -707,6 +809,5247 @@
       "tutorial"
     ],
     "url": "https://lilianweng.github.io/posts/2017-06-21-overview/",
+    "sourceId": "lilian-weng",
+    "sourceName": "Lilian Weng",
     "topic": "深度学习基础与表征"
+  },
+  {
+    "slug": "11787",
+    "title": "矩阵函数近似中的暴力美学",
+    "date": "2026-06-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11787",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11782",
+    "title": "MoE环游记：9、门控归一化之争",
+    "date": "2026-06-17",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/11782",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11777",
+    "title": "流形上的最速下降：6. Muon + 双旋转",
+    "date": "2026-06-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11777",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11772",
+    "title": "为什么官方版Muon比MuP版多出一个max(1, ⋅)？",
+    "date": "2026-06-03",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11772",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11767",
+    "title": "矩阵参数的奇异值熵越高越好吗？",
+    "date": "2026-05-29",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11767",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11760",
+    "title": "MoE环游记：8、强制序列级均衡",
+    "date": "2026-05-22",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/11760",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11750",
+    "title": "DeepSeek V4的tid2eid是怎么来的？",
+    "date": "2026-05-15",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/11750",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11738",
+    "title": "直接以FID为Loss：从梯度计算到流式训练",
+    "date": "2026-05-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11738",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11736",
+    "title": "如何更科学地估计矩阵的谱范数？",
+    "date": "2026-05-04",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11736",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11729",
+    "title": "MuP之上：4. 坚守参数的稳定性",
+    "date": "2026-04-24",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11729",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11719",
+    "title": "基于流式幂迭代的Muon实现：5. 延伸",
+    "date": "2026-04-17",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11719",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11710",
+    "title": "基于流式幂迭代的Muon实现：4. 原理",
+    "date": "2026-04-13",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11710",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11697",
+    "title": "基于流式幂迭代的Muon实现：3. 雕琢",
+    "date": "2026-04-07",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11697",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11673",
+    "title": "基于流式幂迭代的Muon实现：2. 加速",
+    "date": "2026-03-26",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11673",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11664",
+    "title": "Attention Residuals 回忆录",
+    "date": "2026-03-19",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11664",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11654",
+    "title": "基于流式幂迭代的Muon实现：1. 初识",
+    "date": "2026-03-12",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11654",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11647",
+    "title": "MuP之上：3. 特殊情况特殊处理",
+    "date": "2026-03-02",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11647",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11626",
+    "title": "MoE环游记：7、动态激活极简解",
+    "date": "2026-02-23",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/11626",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11619",
+    "title": "MoE环游记：6、最优分配促均衡",
+    "date": "2026-02-22",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/11619",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11605",
+    "title": "MuP之上：2. 线性层与最速下降",
+    "date": "2026-02-15",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11605",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11593",
+    "title": "Adam优化器的最优超参数是β1=β2 ？",
+    "date": "2026-02-04",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11593",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11578",
+    "title": "一行代码将arXiv论文翻译成中文版",
+    "date": "2026-01-28",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/11578",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11563",
+    "title": "DeltaNet的核心逆矩阵的元素总是在[-1, 1]内",
+    "date": "2026-01-26",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11563",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11549",
+    "title": "为什么我们偏爱各向同性？基于最速下降的理解",
+    "date": "2026-01-20",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11549",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11530",
+    "title": "让炼丹更科学一些（五）：基于梯度精调学习率",
+    "date": "2026-01-09",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11530",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11494",
+    "title": "让炼丹更科学一些（四）：新恒等式，新学习率",
+    "date": "2025-12-26",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11494",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11486",
+    "title": "为什么DeltaNet要加L2 Normalize？",
+    "date": "2025-12-23",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11486",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11480",
+    "title": "让炼丹更科学一些（三）：SGD的终点损失收敛",
+    "date": "2025-12-16",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11480",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11459",
+    "title": "滑动平均视角下的权重衰减和学习率",
+    "date": "2025-12-05",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11459",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11428",
+    "title": "生成扩散模型漫谈（三十一）：预测数据而非噪声",
+    "date": "2025-11-24",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/11428",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11416",
+    "title": "Muon优化器指南：快速上手与关键细节",
+    "date": "2025-11-19",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11416",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11404",
+    "title": "AdamW的Weight RMS的渐近估计（下）",
+    "date": "2025-11-17",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11404",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11388",
+    "title": "流形上的最速下降：5. 对偶梯度下降",
+    "date": "2025-11-03",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11388",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11371",
+    "title": "低精度Attention可能存在有偏的舍入误差",
+    "date": "2025-10-27",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11371",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11340",
+    "title": "MuP之上：1. 好模型的三个特征",
+    "date": "2025-10-21",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11340",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11335",
+    "title": "随机矩阵的谱范数的快速估计",
+    "date": "2025-10-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11335",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11328",
+    "title": "DiVeQ：一种非常简洁的VQ训练方案",
+    "date": "2025-10-08",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/11328",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11320",
+    "title": "为什么线性注意力要加Short Conv？",
+    "date": "2025-10-05",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11320",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11307",
+    "title": "AdamW的Weight RMS的渐近估计（上）",
+    "date": "2025-10-01",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11307",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11301",
+    "title": "重新思考学习率与Batch Size（四）：EMA",
+    "date": "2025-09-22",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11301",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11285",
+    "title": "重新思考学习率与Batch Size（三）：Muon",
+    "date": "2025-09-15",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11285",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11280",
+    "title": "重新思考学习率与Batch Size（二）：平均场",
+    "date": "2025-09-10",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11280",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11267",
+    "title": "为什么Adam的Update RMS是0.2？",
+    "date": "2025-09-02",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11267",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11260",
+    "title": "重新思考学习率与Batch Size（一）：现状",
+    "date": "2025-09-01",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11260",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11250",
+    "title": "Cool Papers更新：简单适配Zotero Connector",
+    "date": "2025-08-25",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/11250",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11241",
+    "title": "流形上的最速下降：4. Muon + 谱球面",
+    "date": "2025-08-21",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11241",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11221",
+    "title": "流形上的最速下降：3. Muon + Stiefel",
+    "date": "2025-08-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11221",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11215",
+    "title": "流形上的最速下降：2. Muon + 正交",
+    "date": "2025-08-06",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11215",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11196",
+    "title": "流形上的最速下降：1. SGD + 超球面",
+    "date": "2025-08-01",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11196",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11175",
+    "title": "矩阵r次方根和逆r次方根的高效计算",
+    "date": "2025-07-21",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11175",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11158",
+    "title": "矩阵平方根和逆平方根的高效计算",
+    "date": "2025-07-19",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11158",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11126",
+    "title": "QK-Clip：让Muon在Scaleup之路上更进一步",
+    "date": "2025-07-12",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/11126",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11111",
+    "title": "Transformer升级之路：21、MLA好在哪里?（下）",
+    "date": "2025-07-10",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11111",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11072",
+    "title": "“对角+低秩”三角阵的高效求逆方法",
+    "date": "2025-07-01",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11072",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11059",
+    "title": "通过msign来计算奇异值裁剪mclip（下）",
+    "date": "2025-06-23",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11059",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11056",
+    "title": "矩阵符号函数mcsgn能计算什么？",
+    "date": "2025-06-23",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11056",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11033",
+    "title": "线性注意力简史：从模仿、创新到反哺",
+    "date": "2025-06-20",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/11033",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "11006",
+    "title": "通过msign来计算奇异值裁剪mclip（上）",
+    "date": "2025-06-07",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/11006",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10996",
+    "title": "msign算子的Newton-Schulz迭代（下）",
+    "date": "2025-06-05",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10996",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10958",
+    "title": "生成扩散模型漫谈（三十）：从瞬时速度到平均速度",
+    "date": "2025-05-26",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10958",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10945",
+    "title": "MoE环游记：5、均匀分布的反思",
+    "date": "2025-05-16",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10945",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10922",
+    "title": "msign算子的Newton-Schulz迭代（上）",
+    "date": "2025-05-11",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10922",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10907",
+    "title": "Transformer升级之路：20、MLA好在哪里?（上）",
+    "date": "2025-05-04",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10907",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10902",
+    "title": "一道概率不等式：盯着它到显然成立为止！",
+    "date": "2025-04-30",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10902",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10878",
+    "title": "SVD的导数",
+    "date": "2025-04-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10878",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10862",
+    "title": "Transformer升级之路：19、第二类旋转位置编码",
+    "date": "2025-04-18",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10862",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10847",
+    "title": "矩阵的有效秩（Effective Rank）",
+    "date": "2025-04-10",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10847",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10831",
+    "title": "通过梯度近似寻找Normalization的替代品",
+    "date": "2025-04-02",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10831",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10815",
+    "title": "MoE环游记：4、难处应当多投入",
+    "date": "2025-03-28",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10815",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10795",
+    "title": "高阶MuP：更简明但更高明的谱条件缩放",
+    "date": "2025-03-24",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10795",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10770",
+    "title": "初探MuP：超参数的跨模型尺度迁移规律",
+    "date": "2025-03-13",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10770",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10757",
+    "title": "MoE环游记：3、换个思路来分配",
+    "date": "2025-03-05",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10757",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10739",
+    "title": "Muon续集：为什么我们选择尝试Muon？",
+    "date": "2025-02-27",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10739",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10735",
+    "title": "MoE环游记：2、不患寡而患不均",
+    "date": "2025-02-21",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10735",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10711",
+    "title": "生成扩散模型漫谈（二十九）：用DDPM来离散编码",
+    "date": "2025-02-14",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10711",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10699",
+    "title": "MoE环游记：1、从几何意义出发",
+    "date": "2025-02-08",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10699",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10667",
+    "title": "细水长flow之TARFLOW：流模型满血归来？",
+    "date": "2025-01-17",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10667",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10662",
+    "title": "低秩近似之路（五）：CUR",
+    "date": "2025-01-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10662",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10657",
+    "title": "为什么梯度裁剪的默认模长是1？",
+    "date": "2025-01-02",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10657",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10648",
+    "title": "从谱范数梯度到新式权重衰减的思考",
+    "date": "2024-12-25",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10648",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10633",
+    "title": "生成扩散模型漫谈（二十八）：分步理解一致性模型",
+    "date": "2024-12-18",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10633",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10617",
+    "title": "生成扩散模型漫谈（二十七）：将步长作为条件输入",
+    "date": "2024-12-15",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10617",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10592",
+    "title": "Muon优化器赏析：从向量到矩阵的本质跨越",
+    "date": "2024-12-10",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10592",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10588",
+    "title": "从Hessian近似看自适应学习率优化器",
+    "date": "2024-11-29",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10588",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10567",
+    "title": "生成扩散模型漫谈（二十六）：基于恒等式的蒸馏（下）",
+    "date": "2024-11-22",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10567",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10563",
+    "title": "Adam的epsilon如何影响学习率的Scaling Law？",
+    "date": "2024-11-18",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10563",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10542",
+    "title": "当Batch Size增大时，学习率该如何随之变化？",
+    "date": "2024-11-14",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10542",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10519",
+    "title": "VQ的又一技巧：给编码表加一个线性变换",
+    "date": "2024-11-06",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10519",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10501",
+    "title": "低秩近似之路（四）：ID",
+    "date": "2024-10-30",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10501",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10489",
+    "title": "VQ的旋转技巧：梯度直通估计的一般推广",
+    "date": "2024-10-24",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/10489",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10480",
+    "title": "Cool Papers浏览器扩展升级至v0.2.0",
+    "date": "2024-10-16",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/10480",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10427",
+    "title": "低秩近似之路（三）：CR",
+    "date": "2024-10-11",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10427",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10407",
+    "title": "低秩近似之路（二）：SVD",
+    "date": "2024-10-01",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10407",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10373",
+    "title": "Softmax后传：寻找Top-K的光滑近似",
+    "date": "2024-09-19",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10373",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10366",
+    "title": "低秩近似之路（一）：伪逆",
+    "date": "2024-09-15",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10366",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10352",
+    "title": "“闭门造车”之多模态思路浅谈（三）：位置编码",
+    "date": "2024-09-06",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10352",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10347",
+    "title": "Decoder-only的LLM为什么需要位置编码？",
+    "date": "2024-09-01",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10347",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10311",
+    "title": "“Cool Papers + 站内搜索”的一些新尝试",
+    "date": "2024-08-12",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/10311",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10289",
+    "title": "通向最优分布之路：概率空间的最小化",
+    "date": "2024-08-06",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10289",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10266",
+    "title": "对齐全量微调！这是我看过最精彩的LoRA改进（二）",
+    "date": "2024-07-29",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/10266",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10249",
+    "title": "Monarch矩阵：计算高效的稀疏型矩阵分解",
+    "date": "2024-07-24",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/10249",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10226",
+    "title": "对齐全量微调！这是我看过最精彩的LoRA改进（一）",
+    "date": "2024-07-12",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/10226",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10197",
+    "title": "“闭门造车”之多模态思路浅谈（二）：自回归",
+    "date": "2024-07-08",
+    "readingTime": "",
+    "tags": [
+      "多模态与视觉生成"
+    ],
+    "topic": "多模态与视觉生成",
+    "url": "https://kexue.fm/archives/10197",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10145",
+    "title": "通向概率分布之路：盘点Softmax及其替代品",
+    "date": "2024-06-14",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10145",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10122",
+    "title": "Transformer升级之路：18、RoPE的底数选择原则",
+    "date": "2024-05-29",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10122",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10114",
+    "title": "重温SSM（一）：线性系统和HiPPO矩阵",
+    "date": "2024-05-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10114",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10091",
+    "title": "缓存与效果的极限拉扯：从MHA、MQA、GQA到MLA",
+    "date": "2024-05-13",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10091",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10088",
+    "title": "Cool Papers更新：简单搭建了一个站内检索系统",
+    "date": "2024-05-07",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/10088",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10085",
+    "title": "生成扩散模型漫谈（二十五）：基于恒等式的蒸馏（上）",
+    "date": "2024-05-01",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10085",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10077",
+    "title": "生成扩散模型漫谈（二十四）：少走捷径，更快到达",
+    "date": "2024-04-23",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10077",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10055",
+    "title": "生成扩散模型漫谈（二十三）：信噪比与大图生成（下）",
+    "date": "2024-04-17",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10055",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10047",
+    "title": "生成扩散模型漫谈（二十二）：信噪比与大图生成（上）",
+    "date": "2024-04-08",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/10047",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10040",
+    "title": "Transformer升级之路：17、多模态位置编码的简单思考",
+    "date": "2024-03-29",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10040",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10017",
+    "title": "时空之章：将Attention视为平方复杂度的RNN",
+    "date": "2024-03-18",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/10017",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10007",
+    "title": "用傅里叶级数拟合一维概率密度函数",
+    "date": "2024-03-07",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/10007",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "10001",
+    "title": "配置不同的学习率，LoRA还能再涨一点？",
+    "date": "2024-02-27",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/10001",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9984",
+    "title": "“闭门造车”之多模态思路浅谈（一）：无损输入",
+    "date": "2024-02-21",
+    "readingTime": "",
+    "tags": [
+      "多模态与视觉生成"
+    ],
+    "topic": "多模态与视觉生成",
+    "url": "https://kexue.fm/archives/9984",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9978",
+    "title": "更便捷的Cool Papers打开方式：Chrome重定向扩展",
+    "date": "2024-02-02",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/9978",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9969",
+    "title": "幂等生成网络IGN：试图将判别和生成合二为一的GAN",
+    "date": "2024-01-31",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9969",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9948",
+    "title": "Transformer升级之路：16、“复盘”长度外推技术",
+    "date": "2024-01-26",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9948",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9920",
+    "title": "新年快乐！记录一下 Cool Papers 的开发体验",
+    "date": "2024-01-01",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/9920",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9907",
+    "title": "写了个刷论文的辅助网站：Cool Papers",
+    "date": "2023-12-25",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/9907",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9902",
+    "title": "让炼丹更科学一些（一）：SGD的平均损失收敛",
+    "date": "2023-12-19",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9902",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9889",
+    "title": "注意力机制真的可以“集中注意力”吗？",
+    "date": "2023-12-12",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9889",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9881",
+    "title": "生成扩散模型漫谈（二十一）：中值定理加速ODE采样",
+    "date": "2023-12-07",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9881",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9862",
+    "title": "我在Performer中发现了Transformer-VQ的踪迹",
+    "date": "2023-11-29",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9862",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9859",
+    "title": "Transformer升级之路：15、Key归一化助力长度外推",
+    "date": "2023-11-20",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9859",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9844",
+    "title": "VQ一下Key，Transformer的复杂度就变成线性了",
+    "date": "2023-11-09",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9844",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9826",
+    "title": "简单得令人尴尬的FSQ：“四舍五入”超越了VQ-VAE",
+    "date": "2023-10-31",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9826",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9812",
+    "title": "从梯度最大化看Attention的Scale操作",
+    "date": "2023-10-22",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9812",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9787",
+    "title": "预训练一下，Transformer的长序列成绩还能涨不少！",
+    "date": "2023-10-08",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9787",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9762",
+    "title": "大词表语言模型在续写任务上的一个问题及对策",
+    "date": "2023-09-13",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9762",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9752",
+    "title": "BytePiece：更纯粹、更高压缩率的Tokenizer",
+    "date": "2023-09-07",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9752",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9736",
+    "title": "Lion/Tiger优化器训练下的Embedding异常和对策",
+    "date": "2023-08-28",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9736",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9731",
+    "title": "Transformer升级之路：14、当HWFA遇见ReRoPE",
+    "date": "2023-08-24",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9731",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9728",
+    "title": "Transformer升级之路：13、逆用Leaky ReRoPE",
+    "date": "2023-08-14",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9728",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9708",
+    "title": "Transformer升级之路：12、无限外推的ReRoPE？",
+    "date": "2023-08-07",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9708",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9706",
+    "title": "Transformer升级之路：11、将β进制位置进行到底",
+    "date": "2023-07-31",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9706",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9698",
+    "title": "语言模型输出端共享Embedding的重新探索",
+    "date": "2023-07-20",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9698",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9687",
+    "title": "当生成模型肆虐：互联网将有“疯牛病”之忧？",
+    "date": "2023-07-14",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9687",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9675",
+    "title": "Transformer升级之路：10、RoPE是一种β进制编码",
+    "date": "2023-07-06",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9675",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9668",
+    "title": "生成扩散模型漫谈（二十）：从ReFlow到WGAN-GP",
+    "date": "2023-06-28",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9668",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9662",
+    "title": "生成扩散模型漫谈（十九）：作为扩散ODE的GAN",
+    "date": "2023-06-24",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9662",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9660",
+    "title": "梯度流：探索通向最小值之路",
+    "date": "2023-06-16",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9660",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9617",
+    "title": "NBCE：使用朴素贝叶斯扩展LLM的Context处理长度",
+    "date": "2023-05-23",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9617",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9607",
+    "title": "基于量子化假设推导模型的尺度定律（Scaling Law）",
+    "date": "2023-05-18",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9607",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9603",
+    "title": "Transformer升级之路：9、一种全局长度外推的新思路",
+    "date": "2023-05-12",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9603",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9595",
+    "title": "如何度量数据的稀疏程度？",
+    "date": "2023-05-05",
+    "readingTime": "",
+    "tags": [
+      "MoE 与稀疏模型"
+    ],
+    "topic": "MoE 与稀疏模型",
+    "url": "https://kexue.fm/archives/9595",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9593",
+    "title": "注意力和Softmax的两点有趣发现：鲁棒性和信息量",
+    "date": "2023-04-25",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9593",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9590",
+    "title": "梯度视角下的LoRA：简介、分析、猜测及推广",
+    "date": "2023-04-17",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9590",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9588",
+    "title": "从JL引理看熵不变性Attention",
+    "date": "2023-04-10",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9588",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9577",
+    "title": "Bias项的神奇作用：RoPE + Bias = 更好的长度外推性",
+    "date": "2023-04-03",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9577",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9547",
+    "title": "《为什么现在的LLM都是Decoder-only的架构？》FAQ",
+    "date": "2023-03-20",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9547",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9529",
+    "title": "为什么现在的LLM都是Decoder-only的架构？",
+    "date": "2023-03-17",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9529",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9512",
+    "title": "Tiger：一个“抠”到极致的优化器",
+    "date": "2023-03-07",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9512",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9509",
+    "title": "生成扩散模型漫谈（十八）：得分匹配 = 条件得分匹配",
+    "date": "2023-02-28",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9509",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9497",
+    "title": "生成扩散模型漫谈（十七）：构建ODE的一般步骤（下）",
+    "date": "2023-02-23",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9497",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9473",
+    "title": "Google新搜出的优化器Lion：效率与效果兼得的“训练狮”",
+    "date": "2023-02-16",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9473",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9467",
+    "title": "生成扩散模型漫谈（十六）：W距离 ≤ 得分匹配",
+    "date": "2023-02-14",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9467",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9444",
+    "title": "Transformer升级之路：8、长度外推性与位置鲁棒性",
+    "date": "2023-01-31",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9444",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9431",
+    "title": "Transformer升级之路：7、长度外推性与局部注意力",
+    "date": "2023-01-12",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9431",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9403",
+    "title": "Transformer升级之路：6、旋转位置编码的完备性分析",
+    "date": "2022-12-28",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9403",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9379",
+    "title": "生成扩散模型漫谈（十五）：构建ODE的一般步骤（中）",
+    "date": "2022-12-22",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9379",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9370",
+    "title": "生成扩散模型漫谈（十四）：构建ODE的一般步骤（上）",
+    "date": "2022-12-15",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9370",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9344",
+    "title": "基于Amos优化器思想推导出来的一些“炼丹策略”",
+    "date": "2022-11-22",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/9344",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9324",
+    "title": "圆内随机n点在同一个圆心角为θ的扇形的概率",
+    "date": "2022-10-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/9324",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9305",
+    "title": "生成扩散模型漫谈（十三）：从万有引力到扩散模型",
+    "date": "2022-10-18",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9305",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9280",
+    "title": "生成扩散模型漫谈（十二）：“硬刚”扩散ODE",
+    "date": "2022-09-28",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9280",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9271",
+    "title": "生成扩散模型漫谈（十一）：统一扩散模型（应用篇）",
+    "date": "2022-09-21",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9271",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9262",
+    "title": "生成扩散模型漫谈（十）：统一扩散模型（理论篇）",
+    "date": "2022-09-14",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9262",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9257",
+    "title": "生成扩散模型漫谈（九）：条件控制生成结果",
+    "date": "2022-08-30",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9257",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9246",
+    "title": "生成扩散模型漫谈（八）：最优扩散方差估计（下）",
+    "date": "2022-08-18",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9246",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9245",
+    "title": "生成扩散模型漫谈（七）：最优扩散方差估计（上）",
+    "date": "2022-08-12",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9245",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9228",
+    "title": "生成扩散模型漫谈（六）：一般框架之ODE篇",
+    "date": "2022-08-08",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9228",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9209",
+    "title": "生成扩散模型漫谈（五）：一般框架之SDE篇",
+    "date": "2022-08-03",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9209",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9181",
+    "title": "生成扩散模型漫谈（四）：DDIM = 高观点DDPM",
+    "date": "2022-07-27",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9181",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9164",
+    "title": "生成扩散模型漫谈（三）：DDPM = 贝叶斯 + 去噪",
+    "date": "2022-07-19",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9164",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9152",
+    "title": "生成扩散模型漫谈（二）：DDPM = 自回归式VAE",
+    "date": "2022-07-06",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9152",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9119",
+    "title": "生成扩散模型漫谈（一）：DDPM = 拆楼 + 建楼",
+    "date": "2022-06-13",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/9119",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9105",
+    "title": "相对位置编码Transformer的一个理论缺陷与对策",
+    "date": "2022-06-07",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9105",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9085",
+    "title": "从重参数的角度看离散概率分布的构建",
+    "date": "2022-05-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/9085",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9079",
+    "title": "当BERT-whitening引入超参数：总有一款适合你",
+    "date": "2022-05-18",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9079",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9070",
+    "title": "logsumexp运算的几个不等式",
+    "date": "2022-05-10",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/9070",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9064",
+    "title": "多标签“Softmax+交叉熵”的软标签版本",
+    "date": "2022-05-07",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9064",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9059",
+    "title": "在bert4keras中使用混合精度和XLA加速训练",
+    "date": "2022-04-28",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9059",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9052",
+    "title": "GAU-α：尝鲜体验快好省的下一代Attention",
+    "date": "2022-04-22",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9052",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9046",
+    "title": "你的语言模型有没有“无法预测的词”？",
+    "date": "2022-04-20",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/9046",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9034",
+    "title": "熵不变性Softmax的一个快速推导",
+    "date": "2022-04-11",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9034",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "9019",
+    "title": "听说Attention与Softmax更配哦～",
+    "date": "2022-04-07",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/9019",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8990",
+    "title": "门控注意力单元（GAU）还需要Warmup吗？",
+    "date": "2022-03-11",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8990",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8978",
+    "title": "训练1000层的Transformer究竟有什么困难？",
+    "date": "2022-03-09",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8978",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8968",
+    "title": "指数梯度下降 + 元学习 = 自适应学习率",
+    "date": "2022-03-03",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8968",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8934",
+    "title": "FLASH：可能是近来最有意思的高效Transformer设计",
+    "date": "2022-02-25",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8934",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8896",
+    "title": "多任务学习漫谈（二）：行梯度之事",
+    "date": "2022-02-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8896",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8847",
+    "title": "CoSENT（一）：比Sentence-BERT更有效的句向量方案",
+    "date": "2022-01-06",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8847",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8829",
+    "title": "概率分布的熵归一化（Entropy Normalization）",
+    "date": "2021-12-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8829",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8823",
+    "title": "从熵不变性看Attention的Scale操作",
+    "date": "2021-12-21",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8823",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8802",
+    "title": "Seq2Seq+前缀树：检索任务新范式（以KgCLUE为例）",
+    "date": "2021-12-17",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8802",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8796",
+    "title": "输入梯度惩罚与参数梯度惩罚的一个不等式",
+    "date": "2021-12-11",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8796",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8791",
+    "title": "变分自编码器（八）：估计样本概率密度",
+    "date": "2021-12-09",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8791",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8764",
+    "title": "ChildTuning：试试把Dropout加到梯度上去？",
+    "date": "2021-11-22",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8764",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8757",
+    "title": "WGAN新方案：通过梯度归一化来实现L约束",
+    "date": "2021-11-15",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8757",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8747",
+    "title": "模型优化漫谈：BERT的初始标准差为什么是0.02？",
+    "date": "2021-11-08",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8747",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8739",
+    "title": "bert4keras在手，baseline我有：CLUE基准代码",
+    "date": "2021-10-31",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8739",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8728",
+    "title": "CAN：借助先验分布提升分类性能的简单后处理技巧",
+    "date": "2021-10-22",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8728",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8715",
+    "title": "关于WhiteningBERT原创性的疑问和沟通",
+    "date": "2021-10-09",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8715",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8656",
+    "title": "从三角不等式到Margin Softmax",
+    "date": "2021-09-01",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8656",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8634",
+    "title": "隐藏在动量中的梯度累积：少更新几步，效果反而更好？",
+    "date": "2021-08-24",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8634",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8620",
+    "title": "浅谈Transformer的初始化、参数化与标准化",
+    "date": "2021-08-17",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8620",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8610",
+    "title": "线性Transformer应该不是你要等的那个模型",
+    "date": "2021-08-09",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8610",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8601",
+    "title": "Transformer升级之路：5、作为无限维的线性Attention",
+    "date": "2021-08-06",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8601",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8578",
+    "title": "概率视角下的线性模型：逻辑回归有解析解吗？",
+    "date": "2021-07-22",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8578",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8512",
+    "title": "两个多元正态分布的KL散度、巴氏距离和W距离",
+    "date": "2021-07-08",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8512",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8475",
+    "title": "UniVAE：基于Transformer的单模型、多尺度的VAE模型",
+    "date": "2021-06-29",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8475",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8471",
+    "title": "对比学习可以使用梯度累积吗？",
+    "date": "2021-06-17",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8471",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8454",
+    "title": "SimBERTv2来了！融合检索和生成的RoFormer-Sim模型",
+    "date": "2021-06-11",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8454",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8453",
+    "title": "从一个单位向量变换到另一个单位向量的正交矩阵",
+    "date": "2021-06-05",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/8453",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8444",
+    "title": "我们可以无损放大一个Transformer模型吗（一）",
+    "date": "2021-06-02",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8444",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8431",
+    "title": "也来盘点一些最近的非Transformer工作",
+    "date": "2021-05-24",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8431",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8404",
+    "title": "变分自编码器（七）：球面上的VAE（vMF-VAE）",
+    "date": "2021-05-17",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/8404",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8397",
+    "title": "Transformer升级之路：4、二维位置的旋转式位置编码",
+    "date": "2021-05-10",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8397",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8338",
+    "title": "Transformer升级之路：3、从Performer到线性Attention",
+    "date": "2021-04-22",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8338",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8295",
+    "title": "P-tuning：自动构建模版，释放语言模型潜能",
+    "date": "2021-04-03",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8295",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8265",
+    "title": "Transformer升级之路：2、博采众长的旋转式位置编码",
+    "date": "2021-03-23",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8265",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8244",
+    "title": "WGAN的成功，可能跟Wasserstein距离没啥关系",
+    "date": "2021-03-15",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/8244",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8231",
+    "title": "Transformer升级之路：1、Sinusoidal位置编码追根溯源",
+    "date": "2021-03-08",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8231",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8209",
+    "title": "T5 PEGASUS：开源一个中文生成式预训练模型",
+    "date": "2021-03-03",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8209",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8180",
+    "title": "Nyströmformer：基于矩阵分解的线性化Attention方案",
+    "date": "2021-02-16",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8180",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8130",
+    "title": "让研究人员绞尽脑汁的Transformer位置编码",
+    "date": "2021-02-03",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8130",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8128",
+    "title": "Seq2Seq重复解码现象的理论分析尝试",
+    "date": "2021-01-26",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8128",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8119",
+    "title": "【搜出来的文本】⋅（三）基于BERT的文本采样",
+    "date": "2021-01-22",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8119",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8069",
+    "title": "你可能不需要BERT-flow：一个线性变换媲美BERT-flow",
+    "date": "2021-01-11",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/8069",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8027",
+    "title": "RealFormer：把残差转移到Attention矩阵上面去",
+    "date": "2020-12-24",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/8027",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "8009",
+    "title": "从动力学角度看优化算法（七）：SGD ≈ SVM？",
+    "date": "2020-12-21",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/8009",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7947",
+    "title": "层次分解位置编码，让BERT可以处理超长文本",
+    "date": "2020-12-04",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7947",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7921",
+    "title": "Performer：用随机投影将Attention的复杂度线性化",
+    "date": "2020-12-01",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7921",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7912",
+    "title": "跟风玩玩目前最大的中文GPT2模型（bert4keras）",
+    "date": "2020-11-20",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7912",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7888",
+    "title": "也来谈谈RNN的梯度消失/爆炸问题",
+    "date": "2020-11-13",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7888",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7877",
+    "title": "当GPT遇上中国象棋：写过文章解过题，要不再来下盘棋？",
+    "date": "2020-11-11",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7877",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7846",
+    "title": "用ALBERT和ELECTRA之前，请确认你真的了解它们",
+    "date": "2020-10-29",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7846",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7809",
+    "title": "BERT可以上几年级了？Seq2Seq“硬刚”小学数学应用题",
+    "date": "2020-10-19",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7809",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7787",
+    "title": "从动力学角度看优化算法（五）：为什么学习率不宜过小？",
+    "date": "2020-10-10",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7787",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7764",
+    "title": "必须要GPT3吗？不，BERT的MLM模型也能小样本学习",
+    "date": "2020-09-27",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7764",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7758",
+    "title": "提速不掉点：基于词颗粒度的中文WoBERT",
+    "date": "2020-09-18",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7758",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7737",
+    "title": "殊途同归的策略梯度与零阶优化",
+    "date": "2020-09-15",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7737",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7725",
+    "title": "变分自编码器（六）：从几何视角来理解VAE的尝试",
+    "date": "2020-09-10",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7725",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7718",
+    "title": "动手做个DialoGPT：基于LM的生成式多轮对话模型",
+    "date": "2020-09-07",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7718",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7661",
+    "title": "修改Transformer结构，设计一个更快更好的MLM模型",
+    "date": "2020-08-07",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7661",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7630",
+    "title": "学会提问的BERT：端到端地从篇章中构建问答对",
+    "date": "2020-07-25",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7630",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7575",
+    "title": "BERT-of-Theseus：基于模块替换的模型压缩方法",
+    "date": "2020-07-17",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7575",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7574",
+    "title": "强大的NVAE：以后再也不能说VAE生成的图像模糊了",
+    "date": "2020-07-10",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7574",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7546",
+    "title": "线性Attention的探索：Attention必须有个Softmax吗？",
+    "date": "2020-07-04",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7546",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7533",
+    "title": "积分梯度：一种新颖的神经网络可视化方法",
+    "date": "2020-06-28",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7533",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7500",
+    "title": "如何应对Seq2Seq中的“根本停不下来”问题？",
+    "date": "2020-06-16",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7500",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7476",
+    "title": "无监督分词和句法分析！原来BERT还可以这样用",
+    "date": "2020-06-10",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7476",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7469",
+    "title": "为什么梯度裁剪能加速训练过程？一个简明的分析",
+    "date": "2020-06-05",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7469",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7466",
+    "title": "泛化性乱弹：从随机噪声、梯度惩罚到虚拟对抗训练",
+    "date": "2020-06-01",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7466",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7430",
+    "title": "Google新作Synthesizer：我们还不够了解自注意力",
+    "date": "2020-05-25",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7430",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7427",
+    "title": "鱼与熊掌兼得：融合检索和生成的SimBERT模型",
+    "date": "2020-05-18",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7427",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7387",
+    "title": "AdaX优化器浅析（附开源实现）",
+    "date": "2020-05-11",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7387",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7381",
+    "title": "变分自编码器（五）：VAE + BN = 更好的VAE",
+    "date": "2020-05-06",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7381",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7359",
+    "title": "将“Softmax+交叉熵”推广到多标签分类问题",
+    "date": "2020-04-25",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7359",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7343",
+    "title": "EAE：自编码器 + BN + 最大熵 = 生成模型",
+    "date": "2020-04-20",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7343",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7325",
+    "title": "突破瓶颈，打造更强大的Transformer",
+    "date": "2020-04-13",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/7325",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7321",
+    "title": "bert4keras在手，baseline我有：百度LIC2020",
+    "date": "2020-04-02",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7321",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7302",
+    "title": "AdaFactor优化器浅析（附开源实现）",
+    "date": "2020-03-23",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7302",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7292",
+    "title": "现在可以用Keras玩中文GPT2了（GPT2_ML）",
+    "date": "2020-03-16",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7292",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7259",
+    "title": "Seq2Seq中Exposure Bias现象的浅析与对策",
+    "date": "2020-03-09",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7259",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7210",
+    "title": "Designing GANs：又一个GAN生产车间",
+    "date": "2020-02-13",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7210",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7196",
+    "title": "你的CRF层的学习率可能不够大",
+    "date": "2020-02-07",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7196",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7187",
+    "title": "抛开约束，增强模型：一行代码提升albert表现",
+    "date": "2020-01-29",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7187",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7161",
+    "title": "用bert4keras做三元组抽取",
+    "date": "2020-01-03",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7161",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7115",
+    "title": "万能的seq2seq：基于seq2seq的阅读理解问答",
+    "date": "2019-12-05",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/7115",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7105",
+    "title": "级联抑制：提升GAN表现的一种简单有效的方法",
+    "date": "2019-12-01",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7105",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7094",
+    "title": "6个派生优化器的简单介绍及其实现",
+    "date": "2019-11-25",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/7094",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7076",
+    "title": "n维空间下两个随机向量的夹角分布",
+    "date": "2019-11-13",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/7076",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7055",
+    "title": "Keras：Tensorflow的黄金标准",
+    "date": "2019-11-06",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7055",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "7038",
+    "title": "从去噪自编码器到生成模型",
+    "date": "2019-10-31",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/7038",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6933",
+    "title": "从语言模型到Seq2Seq：Transformer如戏，全靠Mask",
+    "date": "2019-09-18",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/6933",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6915",
+    "title": "自己实现了一个bert4keras",
+    "date": "2019-08-27",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/6915",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6877",
+    "title": "seq2seq之双向解码",
+    "date": "2019-08-09",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/6877",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6869",
+    "title": "Keras实现两个优化器：Lookahead和LazyOptimizer",
+    "date": "2019-07-30",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6869",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6853",
+    "title": "为节约而生：从标准Attention到稀疏Attention",
+    "date": "2019-07-27",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/6853",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6794",
+    "title": "用时间换取效果：Keras梯度累积优化器",
+    "date": "2019-07-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6794",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6771",
+    "title": "基于Bert的NL2SQL模型：一个简明的Baseline",
+    "date": "2019-06-29",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/6771",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6760",
+    "title": "VQ-VAE的简明介绍：量子化自编码器",
+    "date": "2019-06-24",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6760",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6736",
+    "title": "当Bert遇上Keras：这可能是Bert最简单的打开姿势",
+    "date": "2019-06-18",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/6736",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6705",
+    "title": "漫谈重参数：从正态分布到Gumbel Softmax",
+    "date": "2019-06-10",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/6705",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6671",
+    "title": "基于DGCNN和概率图的轻量级信息抽取模型",
+    "date": "2019-06-03",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/6671",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6612",
+    "title": "能量视角下的GAN模型（三）：生成模型=能量模型",
+    "date": "2019-05-10",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6612",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6583",
+    "title": "从动力学角度看优化算法（四）：GAN的第三个阶段",
+    "date": "2019-05-03",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6583",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6549",
+    "title": "从DCGAN到SELF-MOD：GAN的模型架构发展一览",
+    "date": "2019-04-19",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6549",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6482",
+    "title": "细水长flow之可逆ResNet：极致的暴力美学",
+    "date": "2019-03-21",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6482",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6418",
+    "title": "“让Keras更酷一些！”：分层的学习率和自由的梯度",
+    "date": "2019-03-10",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6418",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6409",
+    "title": "O-GAN：简单修改，让GAN的判别器变成一个编码器！",
+    "date": "2019-03-06",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6409",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6407",
+    "title": "构造一个显式的、总是可逆的矩阵",
+    "date": "2019-03-01",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/6407",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6394",
+    "title": "非对抗式生成模型GLANN的简单介绍",
+    "date": "2019-02-26",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6394",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6387",
+    "title": "巧断梯度：单个loss实现GAN模型",
+    "date": "2019-02-22",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6387",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6331",
+    "title": "能量视角下的GAN模型（二）：GAN＝“分析”＋“采样”",
+    "date": "2019-02-15",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6331",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6316",
+    "title": "能量视角下的GAN模型（一）：GAN＝“挖坑”＋“跳坑”",
+    "date": "2019-01-30",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6316",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6280",
+    "title": "从Wasserstein距离、对偶理论到WGAN",
+    "date": "2019-01-20",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6280",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6240",
+    "title": "【学习清单】最近比较重要的GAN进展论文",
+    "date": "2018-12-26",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6240",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6234",
+    "title": "从动力学角度看优化算法（二）：自适应学习率算法",
+    "date": "2018-12-20",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6234",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6214",
+    "title": "BiGAN-QP：简单清晰的编码&生成模型",
+    "date": "2018-12-10",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6214",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6181",
+    "title": "从变分编码、信息瓶颈到正态分布：论遗忘的重要性",
+    "date": "2018-11-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/6181",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6163",
+    "title": "不用L约束又不会梯度消失的GAN，了解一下？",
+    "date": "2018-11-20",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/6163",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6139",
+    "title": "WGAN-div：一个默默无闻的WGAN填坑者",
+    "date": "2018-11-07",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6139",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6110",
+    "title": "RSGAN：对抗模型中的“图灵测试”思想",
+    "date": "2018-10-22",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6110",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6088",
+    "title": "变分自编码器 = 最小化先验分布 + 最大化互信息",
+    "date": "2018-10-10",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/6088",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6051",
+    "title": "深度学习中的Lipschitz约束：泛化与生成模型",
+    "date": "2018-10-07",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6051",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "6016",
+    "title": "f-GAN简介：GAN模型的生产车间",
+    "date": "2018-09-29",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/6016",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5977",
+    "title": "细水长flow之f-VAEs：Glow与VAEs的联姻",
+    "date": "2018-09-21",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/5977",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5879",
+    "title": "“让Keras更酷一些！”：小众的自定义优化器",
+    "date": "2018-09-08",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/5879",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5861",
+    "title": "玩转Keras之seq2seq自动生成标题",
+    "date": "2018-09-01",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/5861",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5807",
+    "title": "细水长flow之RealNVP与Glow：流模型的传承与升华",
+    "date": "2018-08-26",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/5807",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5776",
+    "title": "细水长flow之NICE：流模型的基本概念与实现",
+    "date": "2018-08-11",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/5776",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5743",
+    "title": "基于GRU和AM-Softmax的句子相似度模型",
+    "date": "2018-07-29",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/5743",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5716",
+    "title": "用变分推断统一理解生成模型（VAE、GAN、AAE、ALI）",
+    "date": "2018-07-18",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/5716",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5655",
+    "title": "从动力学角度看优化算法（一）：从SGD到动量加速",
+    "date": "2018-06-27",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/5655",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5597",
+    "title": "基于最小熵原理的NLP库：nlp zero",
+    "date": "2018-05-31",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/5597",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5332",
+    "title": "基于CNN和VAE的作诗机器人：随机成诗",
+    "date": "2018-03-24",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/5332",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "5155",
+    "title": "三味Capsule：矩阵Capsule与EM路由",
+    "date": "2018-03-02",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/5155",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4765",
+    "title": "《Attention is All You Need》浅读（简介+代码）",
+    "date": "2018-01-06",
+    "readingTime": "",
+    "tags": [
+      "Transformer 与注意力机制"
+    ],
+    "topic": "Transformer 与注意力机制",
+    "url": "https://kexue.fm/archives/4765",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4540",
+    "title": "fashion-mnist的gan玩具",
+    "date": "2017-08-26",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/4540",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4439",
+    "title": "互怼的艺术：从零直达WGAN-GP",
+    "date": "2017-06-08",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/4439",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4402",
+    "title": "【不可思议的Word2Vec】5. Tensorflow版的Word2Vec",
+    "date": "2017-05-27",
+    "readingTime": "",
+    "tags": [
+      "生成模型与扩散模型"
+    ],
+    "topic": "生成模型与扩散模型",
+    "url": "https://kexue.fm/archives/4402",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4277",
+    "title": "梯度下降和EM算法：系出同源，一脉相承",
+    "date": "2017-03-23",
+    "readingTime": "",
+    "tags": [
+      "训练动力学与优化"
+    ],
+    "topic": "训练动力学与优化",
+    "url": "https://kexue.fm/archives/4277",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4233",
+    "title": "SVD分解(三)：连Word2Vec都只不过是个SVD？",
+    "date": "2017-02-23",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/4233",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4216",
+    "title": "SVD分解(二)：为什么SVD意味着聚类？",
+    "date": "2017-01-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/4216",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4208",
+    "title": "SVD分解(一)：自编码器与人工智能",
+    "date": "2017-01-15",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/4208",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4118",
+    "title": "基于双向GRU和语言模型的视角情感分析",
+    "date": "2016-12-01",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/4118",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "4083",
+    "title": "为什么勒贝格积分比黎曼积分强？",
+    "date": "2016-11-16",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/4083",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3956",
+    "title": "【中文分词系列】 5. 基于语言模型的无监督分词",
+    "date": "2016-09-12",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/3956",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3942",
+    "title": "基于双向LSTM和迁移学习的seq2seq核心实体识别",
+    "date": "2016-09-06",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/3942",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3924",
+    "title": "【中文分词系列】 4. 基于双向LSTM的seq2seq字标注",
+    "date": "2016-08-22",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/3924",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3842",
+    "title": "OCR技术浅探：7. 语言模型",
+    "date": "2016-06-26",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/3842",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3766",
+    "title": "路径积分系列：5.例子和综述",
+    "date": "2016-06-09",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3766",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3762",
+    "title": "路径积分系列：4.随机微分方程",
+    "date": "2016-06-09",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3762",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3757",
+    "title": "路径积分系列：3.路径积分",
+    "date": "2016-06-02",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3757",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3750",
+    "title": "路径积分系列：2.随机游走模型",
+    "date": "2016-05-30",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3750",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3749",
+    "title": "路径积分系列：1.我的毕业论文",
+    "date": "2016-05-30",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3749",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3692",
+    "title": "《量子力学与路径积分》习题解答V0.5",
+    "date": "2016-04-01",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3692",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3630",
+    "title": "积分估计的极值原理——变分原理的初级版本",
+    "date": "2016-02-15",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3630",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3582",
+    "title": "《量子力学与路径积分》习题解答V0.4",
+    "date": "2016-01-09",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3582",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3522",
+    "title": "《量子力学与路径积分》习题解答V0.3",
+    "date": "2015-11-18",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3522",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3511",
+    "title": "ARXIV数学论文分布：偏微分方程最热门！",
+    "date": "2015-11-13",
+    "readingTime": "",
+    "tags": [
+      "论文工具与阅读"
+    ],
+    "topic": "论文工具与阅读",
+    "url": "https://kexue.fm/archives/3511",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3476",
+    "title": "《量子力学与路径积分》习题解答V0.2",
+    "date": "2015-10-17",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3476",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3451",
+    "title": "《量子力学与路径积分》习题解答V0.1",
+    "date": "2015-09-14",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3451",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3345",
+    "title": "收到新版《量子力学与路径积分》",
+    "date": "2015-06-06",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3345",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3280",
+    "title": "高斯型积分的微扰展开（三）",
+    "date": "2015-04-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3280",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3241",
+    "title": "高斯型积分的微扰展开（二）",
+    "date": "2015-03-07",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3241",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3217",
+    "title": "高斯型积分的微扰展开（一）",
+    "date": "2015-02-14",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3217",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "3188",
+    "title": "当概率遇上复变：从二项分布到泊松分布",
+    "date": "2015-01-13",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/3188",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2800",
+    "title": "素数之美2：Bertrand假设的证明",
+    "date": "2014-08-09",
+    "readingTime": "",
+    "tags": [
+      "大模型与 NLP"
+    ],
+    "topic": "大模型与 NLP",
+    "url": "https://kexue.fm/archives/2800",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2757",
+    "title": "《新理解矩阵6》：为什么只有方阵有行列式？",
+    "date": "2014-07-15",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2757",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2747",
+    "title": "齐次多项式不等式的机器证明（差分代换）",
+    "date": "2014-07-06",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2747",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2609",
+    "title": "当概率遇上复变：随机游走与路径积分",
+    "date": "2014-06-04",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2609",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2573",
+    "title": "当概率遇上复变：随机游走基本公式",
+    "date": "2014-04-30",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2573",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2550",
+    "title": "当概率遇上复变：解析概率",
+    "date": "2014-04-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2550",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2380",
+    "title": "翻到新的维度，把积分解决！",
+    "date": "2014-02-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2380",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2242",
+    "title": "不确定性原理的矩阵形式",
+    "date": "2014-01-05",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2242",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2224",
+    "title": "矩阵描述三维空间旋转",
+    "date": "2013-12-28",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2224",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2215",
+    "title": "体积与阿达马不等式",
+    "date": "2013-12-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2215",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2208",
+    "title": "《新理解矩阵5》：体积=行列式",
+    "date": "2013-12-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2208",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2195",
+    "title": "用二次方程判别式判断正定矩阵",
+    "date": "2013-12-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2195",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "2192",
+    "title": "三角函数幂的定积分",
+    "date": "2013-12-05",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/2192",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1967",
+    "title": "费曼积分法(8)：求高斯积分",
+    "date": "2013-04-14",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1967",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1946",
+    "title": "费曼积分法(7)：欧拉数学的综合",
+    "date": "2013-03-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1946",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1944",
+    "title": "费曼积分法(6)：教科书上的两道练习题",
+    "date": "2013-03-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1944",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1942",
+    "title": "费曼积分法(5)：欧拉数学的传承",
+    "date": "2013-03-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1942",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1923",
+    "title": "纠缠的时空（二）：洛仑兹变换的矩阵(续)",
+    "date": "2013-02-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1923",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1889",
+    "title": "纠缠的时空（一）：洛仑兹变换的矩阵",
+    "date": "2013-02-01",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1889",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1850",
+    "title": "费曼路径积分思想的发展(四)",
+    "date": "2012-12-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1850",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1849",
+    "title": "费曼路径积分思想的发展(三)",
+    "date": "2012-12-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1849",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1846",
+    "title": "费曼路径积分思想的发展(二)",
+    "date": "2012-12-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1846",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1844",
+    "title": "费曼路径积分思想的发展(一)",
+    "date": "2012-12-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1844",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1841",
+    "title": "矩阵化简二次型（无穷小近似处理抛物型）",
+    "date": "2012-12-25",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1841",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1777",
+    "title": "《新理解矩阵4》：相似矩阵的那些事儿",
+    "date": "2012-11-11",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1777",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1770",
+    "title": "《新理解矩阵3》：行列式的点滴",
+    "date": "2012-11-04",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1770",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1768",
+    "title": "《新理解矩阵2》：矩阵是什么？",
+    "date": "2012-10-31",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1768",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1765",
+    "title": "《新理解矩阵1》：矩阵是什么？",
+    "date": "2012-10-29",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1765",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1754",
+    "title": "分享：孟岩的《理解矩阵》一文",
+    "date": "2012-10-22",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1754",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1716",
+    "title": "均值不等式的两个巧妙证明",
+    "date": "2012-09-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1716",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1689",
+    "title": "[共享]不等式文集",
+    "date": "2012-08-08",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1689",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1683",
+    "title": "复分析学习1：揭示微分与积分的联系",
+    "date": "2012-08-02",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1683",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1637",
+    "title": "费曼积分法——积分符号内取微分(4)",
+    "date": "2012-06-26",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1637",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1629",
+    "title": "费曼积分法——积分符号内取微分(3)",
+    "date": "2012-06-23",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1629",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1619",
+    "title": "费曼积分法——积分符号内取微分(2)",
+    "date": "2012-06-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1619",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1615",
+    "title": "费曼积分法——积分符号内取微分(1)",
+    "date": "2012-06-10",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1615",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1477",
+    "title": "数学竞赛广东预赛|组成三角形的概率",
+    "date": "2011-09-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1477",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1460",
+    "title": "对称多项式不等式的“物理证明”",
+    "date": "2011-08-13",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1460",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1422",
+    "title": "三角函数幂的积分",
+    "date": "2011-07-22",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1422",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1420",
+    "title": "[更正]一道经典不等式的美妙证明",
+    "date": "2011-07-20",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1420",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "1181",
+    "title": "《方程与宇宙》：三体问题和它的初积分(六)",
+    "date": "2011-01-20",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/1181",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "976",
+    "title": "《积分公式大全》网络版本",
+    "date": "2010-10-06",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/976",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "644",
+    "title": "解答不等式的误区...",
+    "date": "2010-05-02",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/644",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "561",
+    "title": "《方程与宇宙》:活力积分和开普勒方程(二)",
+    "date": "2010-03-27",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/561",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "354",
+    "title": "《积分公式大全》电子书",
+    "date": "2010-01-23",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/354",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "118",
+    "title": "微积分学习（二）：导数",
+    "date": "2009-09-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/118",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "96",
+    "title": "几何-算术均值不等式的一般证明",
+    "date": "2009-08-24",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/96",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "75",
+    "title": "微积分学习（一）：极限",
+    "date": "2009-08-16",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/75",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "68",
+    "title": "无穷级数求和的积分审敛法",
+    "date": "2009-08-12",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/68",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
+  },
+  {
+    "slug": "40",
+    "title": "生活中的趣味数学：同一天生日概率有多大",
+    "date": "2009-07-29",
+    "readingTime": "",
+    "tags": [
+      "数学基础"
+    ],
+    "topic": "数学基础",
+    "url": "https://kexue.fm/archives/40",
+    "sourceId": "kexue",
+    "sourceName": "科学空间"
   }
 ]
