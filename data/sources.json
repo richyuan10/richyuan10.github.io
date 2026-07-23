@@ -2,8 +2,9 @@
   "lilianCount": 52,
   "kexueTotalCount": 1326,
   "kexuePriorityCount": 403,
-  "paperCandidateCount": 78,
-  "processedCount": 7,
+  "paperCandidateCount": 77,
+  "paperIncludedCount": 1,
+  "processedCount": 8,
   "indexedArticleCount": 455,
-  "totalIndexedCount": 1378
+  "totalIndexedCount": 1379
 }

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InstructGPT：SFT 如何让预训练模型开始遵循指令 · 拾贝</title>
+  <meta name="description" content="拾贝对 InstructGPT：SFT 如何让预训练模型开始遵循指令 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">OpenAI / arXiv / CURATED NOTE</div>
+      <h1 id="instructgptsft-如何让预训练模型开始遵循指令">InstructGPT：SFT 如何让预训练模型开始遵循指令</h1>
+<blockquote>
+<p>主题：监督微调、RLHF、奖励模型、后训练、对齐</p>
+<p>对应论文：Long Ouyang 等，<em>Training Language Models to Follow Instructions with Human Feedback</em>（OpenAI，2022）</p>
+</blockquote>
+<h2 id="这篇论文解决了什么问题">这篇论文解决了什么问题</h2>
+<p>预训练语言模型学到的是“续写互联网文本”，而用户需要的是“按意图完成任务”。两者并不等价：模型即使规模很大，也可能答非所问、编造事实或输出不合适的内容。</p>
+<p>这篇论文把问题变成一个可训练的过程：先让人写出理想回答，再让人比较多个候选回答，最后用学到的偏好信号继续优化模型。它最常被记住为 RLHF 论文，但对实际后训练而言，<strong>SFT 是把通用续写模型变成可用助手的第一道行为接口</strong>。</p>
+<h2 id="一句话结论">一句话结论</h2>
+<p>SFT 不是单纯“教模型模仿答案”。它把用户指令、任务边界和期望输出格式压进模型行为分布，使后续的奖励模型和强化学习不必从一个只会续写的基座模型开始搜索。</p>
+<h2 id="原作者的训练链路">原作者的训练链路</h2>
+<p>论文的主流程分为三步。</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>人类提供什么</th>
+<th>模型学到什么</th>
+<th>产物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. SFT</td>
+<td>对提示写出理想回答</td>
+<td>给定指令时应如何直接作答</td>
+<td>指令遵循的初始策略</td>
+</tr>
+<tr>
+<td>2. RM</td>
+<td>对多个回答做优劣排序</td>
+<td>哪类回答更符合标注者偏好</td>
+<td>奖励模型</td>
+</tr>
+<tr>
+<td>3. PPO / RLHF</td>
+<td>不再逐条写答案，由奖励模型打分</td>
+<td>在偏好目标下改进策略</td>
+<td>InstructGPT</td>
+</tr>
+</tbody>
+</table>
+<p>论文使用约 1.3 万条训练提示做 SFT，约 3.3 万条训练提示做奖励模型比较数据，约 3.1 万条 API 提示供 PPO 采样。这里的数量不是通用配方，而是一个重要事实：高质量、明确的行为数据能以远小于预训练规模的成本显著改变模型的可用性。</p>
+<h2 id="sft-到底做了什么">SFT 到底做了什么</h2>
+<h3 id="1-把继续写改成完成任务">1. 把“继续写”改成“完成任务”</h3>
+<p>预训练目标关心下一个 token 是否像训练语料；SFT 的监督样本直接给出 <code>指令 -&gt; 期望回答</code>。因此模型开始偏向于：识别请求、组织答案、遵循约束、在不确定时采用更合适的表达。</p>
+<p>这并不意味着 SFT 凭空创造了大量新能力。OpenAI 在官方说明中强调，后训练使用的算力和数据量远小于预训练；更合理的理解是：它主要把已有但难以用提示稳定唤起的能力，重新排到更容易被用户调用的位置。</p>
+<h3 id="2-给后续偏好优化提供可控起点">2. 给后续偏好优化提供“可控起点”</h3>
+<p>PPO 并非从 GPT-3 基座直接开始，而是从 SFT 策略初始化。这样有两个作用：</p>
+<ol type="1">
+<li>初始输出已经接近人类可接受答案，奖励模型只需做局部偏好改进。</li>
+<li>KL 惩罚以 SFT 策略为参照，限制 PPO 为追逐奖励模型而偏离可读、可用的回答分布。</li>
+</ol>
+<p>所以，在这条链路里，SFT 同时是<strong>行为引导</strong>和<strong>优化锚点</strong>。</p>
+<h3 id="3-将格式边界与价值判断数据化">3. 将格式、边界与价值判断数据化</h3>
+<p>SFT 样本不只传递事实知识，更传递“什么时候拒绝、如何解释、什么语气合适、回答应有多长”。这解释了为什么同一个基座模型，经过不同 SFT 数据后会表现出显著不同的助手风格。</p>
+<p>也正因此，SFT 数据不是廉价的文本清洗问题。示范中隐含的标注规范、覆盖分布和冲突处理方式，就是系统实际部署的行为政策。</p>
+<h2 id="为什么还需要奖励模型与-rlhf">为什么还需要奖励模型与 RLHF</h2>
+<p>示范回答昂贵，而且一个提示通常不止一个好答案。偏好比较比从零写出高质量答案更易扩展：标注者只需判断 A 是否优于 B。奖励模型把这种排序压缩成可自动调用的分数，PPO 再用它产生更多优化信号。</p>
+<p>但这不是“用 RLHF 取代 SFT”。更准确的分工是：</p>
+<ul>
+<li><strong>SFT</strong> 定义合格回答的大致形状；</li>
+<li><strong>RM</strong> 学习在多个合格或近似合格回答之间如何取舍；</li>
+<li><strong>PPO</strong> 放大 RM 可识别的偏好，同时要防止过度拟合该评分器。</li>
+</ul>
+<p>这也与 <span class="wiki-token">奖励黑客</span> 相连：奖励模型是代理目标，过度优化它可能得到高分但不真正有用的回答。</p>
+<h2 id="关键实验告诉了什么">关键实验告诉了什么</h2>
+<p>原作者报告，在其 API 提示分布上的人工比较中，1.3B 参数的 InstructGPT 输出被偏好于 175B GPT-3 输出。这个结果的正确解读不是“小模型普遍胜过大模型”，而是：<strong>对真实交互分布而言，后训练目标是否贴近用户意图，可能比单纯扩大参数量更决定体验。</strong></p>
+<p>论文同时观察到“对齐税”：只按人类偏好做 PPO 时，一些公开 NLP 基准会退步。其 PPO-ptx 变体在 PPO 更新中混入预训练分布的对数似然目标，以缓解这种回退。它提出的工程原则至今仍成立：优化某个新行为目标时，必须显式保住不希望丢失的旧能力。</p>
+<h2 id="给实际-sft-项目的操作框架">给实际 SFT 项目的操作框架</h2>
+<h3 id="数据设计">数据设计</h3>
+<ol type="1">
+<li>先定义目标交互：用户会给什么输入，什么回答算完成任务。</li>
+<li>示范样本必须包含困难边界：缺信息、冲突约束、拒答、格式限制、事实不确定性。</li>
+<li>把不同样本按风险和价值加权；不要让大量简单模板淹没关键场景。</li>
+<li>单独留出真实提示分布的评估集，避免只在训练风格相似的数据上自证有效。</li>
+</ol>
+<h3 id="训练与评估">训练与评估</h3>
+<ol type="1">
+<li>先训练并评估 SFT 基线，确认它已经能完成核心任务。</li>
+<li>当“多个都能用的回答如何排序”成为瓶颈时，再引入偏好数据与 RM。</li>
+<li>若用 RLHF，监控奖励分数、人评、事实性、拒答质量和原能力基准，不能只看一个 RM 分数。</li>
+<li>对回退能力设置保留目标，例如混入通用数据、加入多任务评估或用约束损失。</li>
+</ol>
+<h3 id="对拾贝的直接启发">对拾贝的直接启发</h3>
+<p>本知识库若未来要自动生成笔记，SFT 的对应物不是堆积“好文章”，而是一组高质量示范：如何引用证据、如何区分作者观点与整理者归纳、何时明确写出不确定性、怎样避免把标题索引伪装成知识。之后若引入自动评审，它只能作为偏好信号，仍需保留来源核验和人工抽检。</p>
+<h2 id="容易误解的地方">容易误解的地方</h2>
+<ol type="1">
+<li><strong>SFT 不等于知识注入。</strong> 它更擅长塑造回答方式与任务接口；新知识通常还需要检索、继续预训练或高质量领域数据。</li>
+<li><strong>人类偏好不等于普遍正确。</strong> 论文的偏好来自特定标注者、指导规范和提示分布；作者明确指出，这不能保证覆盖更广泛人群的价值观。</li>
+<li><strong>更少毒性或更少幻觉不等于完全安全。</strong> 论文也报告了残余的错误、偏差和不当内容。</li>
+<li><strong>论文中的具体数据量和 PPO 超参数不是今天的标准答案。</strong> 可迁移的是三阶段分工、评估闭环和能力保留的思想。</li>
+</ol>
+<h2 id="与现有知识页的关系">与现有知识页的关系</h2>
+<ul>
+<li><span class="wiki-token">提示工程</span>：提示工程在不改权重时引导模型；SFT 改变模型更稳定地响应指令的方式。</li>
+<li><span class="wiki-token">奖励黑客</span>：奖励模型能扩展偏好优化，也会引入被过度优化的代理目标风险。</li>
+<li><span class="wiki-token">幻觉治理</span>：SFT 可改善特定分布上的回答行为，但不能替代事实核验、检索与外部证据。</li>
+<li><span class="wiki-token">Harness Engineering</span>：SFT 改造模型行为；harness 改造模型运行环境，两者共同决定端到端体验。</li>
+</ul>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始论文：<a href="https://arxiv.org/abs/2203.02155">arXiv:2203.02155</a></li>
+<li>官方方法说明：<a href="https://openai.com/index/instruction-following/">Aligning language models to follow instructions</a></li>
+<li>本地 PDF 快照：<code>raw/papers/instructgpt/2203.02155.pdf</code></li>
+<li>本地文本快照：<code>raw/papers/instructgpt/2203.02155.txt</code></li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2203.02155" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

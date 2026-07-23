@@ -26,8 +26,8 @@
         <a href="#provenance"><span>05</span>追溯方式</a>
       </nav>
       <div class="sidebar-stats">
-        <div><strong>7</strong><span>深加工笔记</span></div>
-        <div><strong>1378</strong><span>已登记原始来源</span></div>
+        <div><strong>8</strong><span>深加工笔记</span></div>
+        <div><strong>1379</strong><span>已登记原始来源</span></div>
       </div>
     </aside>
 
@@ -39,7 +39,7 @@
           <p class="lede">这里展示的是经过归纳、关联和核验的知识笔记。原文仅作为每篇笔记的证据来源，不再是主阅读入口。</p>
         </div>
         <div class="top-actions">
-          <span class="index-badge"><strong>1378</strong> 已索引</span>
+          <span class="index-badge"><strong>1379</strong> 已索引</span>
           <a class="source-link" href="#provenance">查看加工原则 <span aria-hidden="true">&darr;</span></a>
         </div>
       </section>
@@ -47,7 +47,7 @@
       <section class="signal-strip" aria-label="知识库概览">
         <div class="signal-item">
           <span class="signal-label">已经深加工</span>
-          <strong>7 篇 LLM 核心笔记</strong>
+          <strong>8 篇已加工笔记</strong>
           <small>每篇都包含问题、论证骨架、整理者判断、实践清单和证据来源</small>
         </div>
         <div class="signal-item signal-focus">
@@ -72,11 +72,12 @@
               <span class="sr-only">搜索文章</span>
               <input id="articleSearch" type="search" placeholder="搜索已加工的主题、方法或问题">
             </label>
-            <span id="visibleCount" class="result-count" aria-live="polite">7 条目</span>
+            <span id="visibleCount" class="result-count" aria-live="polite">8 条目</span>
           </div>
         </div>
         <div class="topic-filter" aria-label="主题筛选">
           <button class="topic-button active" type="button" data-topic="全部主题">全部主题</button>
+<button class="topic-button" type="button" data-topic="对齐与后训练">对齐与后训练</button>
 <button class="topic-button" type="button" data-topic="LLM、Agent 与 AI 安全">LLM、Agent 与 AI 安全</button>
         </div>
         <div id="articleGrid" class="article-grid">
@@ -85,6 +86,12 @@
   <h3><a href="notes/2023-03-15-prompt-engineering.html">Prompt Engineering</a></h3>
   <div class="article-footer"><span class="article-topic">LLM、Agent 与 AI 安全</span><span class="article-arrow" aria-hidden="true">&rarr;</span></div>
   <div class="tag-row"><span>nlp</span><span>language-model</span><span>alignment</span><span>steerability</span><span>prompting</span></div>
+</article>
+<article class="article-card" data-topic="对齐与后训练" data-source="openai-paper" data-search="instructgpt：sft 如何让预训练模型开始遵循指令 sft rlhf 对齐 后训练 奖励模型 对齐与后训练 openai / arxiv">
+  <div class="article-meta"><span class="source-dot"></span><span>OpenAI / arXiv</span><span class="meta-separator">/</span><span>2022-03-04</span><span class="meta-separator">/</span><span>18 分钟</span></div>
+  <h3><a href="notes/2022-03-04-instructgpt-sft.html">InstructGPT：SFT 如何让预训练模型开始遵循指令</a></h3>
+  <div class="article-footer"><span class="article-topic">对齐与后训练</span><span class="article-arrow" aria-hidden="true">&rarr;</span></div>
+  <div class="tag-row"><span>SFT</span><span>RLHF</span><span>对齐</span><span>后训练</span><span>奖励模型</span></div>
 </article>
 <article class="article-card" data-topic="LLM、Agent 与 AI 安全" data-source="lilian-weng" data-search="llm powered autonomous agents nlp language-model agent steerability prompting llm、agent 与 ai 安全 lilian weng">
   <div class="article-meta"><span class="source-dot"></span><span>Lilian Weng</span><span class="meta-separator">/</span><span>June 23, 2023</span><span class="meta-separator">/</span><span>31 min</span></div>
@@ -132,12 +139,13 @@
         <p>这条主线按控制、执行、事实性、评估、推理预算与运行环境展开。它不是原文目录，而是当前笔记之间的推荐阅读顺序。</p>
         <ol class="reading-route">
   <li><span>01</span><a href="notes/2023-03-15-prompt-engineering.html">Prompt Engineering</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>02</span><a href="notes/2023-06-23-agent.html">LLM Powered Autonomous Agents</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>03</span><a href="notes/2024-07-07-hallucination.html">Extrinsic Hallucinations in LLMs</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>04</span><a href="notes/2024-11-28-reward-hacking.html">Reward Hacking in Reinforcement Learning</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>05</span><a href="notes/2025-05-01-thinking.html">Why We Think</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>06</span><a href="notes/2026-06-24-scaling-laws.html">Scaling Laws, Carefully</a><small>LLM、Agent 与 AI 安全</small></li>
-  <li><span>07</span><a href="notes/2026-07-04-harness.html">Harness Engineering for Self-Improvement</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>02</span><a href="notes/2022-03-04-instructgpt-sft.html">InstructGPT：SFT 如何让预训练模型开始遵循指令</a><small>对齐与后训练</small></li>
+  <li><span>03</span><a href="notes/2023-06-23-agent.html">LLM Powered Autonomous Agents</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>04</span><a href="notes/2024-07-07-hallucination.html">Extrinsic Hallucinations in LLMs</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>05</span><a href="notes/2024-11-28-reward-hacking.html">Reward Hacking in Reinforcement Learning</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>06</span><a href="notes/2025-05-01-thinking.html">Why We Think</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>07</span><a href="notes/2026-06-24-scaling-laws.html">Scaling Laws, Carefully</a><small>LLM、Agent 与 AI 安全</small></li>
+  <li><span>08</span><a href="notes/2026-07-04-harness.html">Harness Engineering for Self-Improvement</a><small>LLM、Agent 与 AI 安全</small></li>
 </ol>
       </section>
 
@@ -150,8 +158,8 @@
 
       <section id="paper-candidates" class="section reading pending">
         <div class="section-kicker">04 / WAITING FOR CONFIRMATION</div>
-        <h2>论文候选不进入阅读库，直到你确认</h2>
-        <p>当前维护 78 篇候选，包括 LoRA、QLoRA、Muon 和主流模型技术报告。它们只是候选清单，不会被当成已加工知识展示或生成结论。</p>
+        <h2>论文候选需要确认后才进入阅读库</h2>
+        <p>当前还有 77 篇候选，包括 LoRA、QLoRA、Muon 和主流模型技术报告。已确认的 InstructGPT / SFT 论文已完成加工；其余候选不会被当成已加工知识展示或生成结论。</p>
       </section>
 
       <section id="provenance" class="section reading">
@@ -162,7 +170,7 @@
           </div>
         </div>
         <p>加工页会把原作者的论证结构和整理者的归纳分开写；关键结论保留原文链接与本地快照路径。这样阅读时先看组织后的知识，需要核验时再回到原始材料。</p>
-        <p>当前来源登记：Lilian Weng 52 篇完整快照；科学空间 1326 篇归档元数据。原始材料不在首页堆叠展示。</p>
+        <p>当前来源登记：Lilian Weng 52 篇完整快照；科学空间 1326 篇归档元数据；1 篇已确认论文。原始材料不在首页堆叠展示。</p>
       </section>
     </main>
   </div>
