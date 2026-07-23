@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kimi K2.5：视觉 Agent 与 Agent Swarm · 拾贝</title>
+  <meta name="description" content="拾贝对 Kimi K2.5：视觉 Agent 与 Agent Swarm 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Moonshot AI / arXiv / CURATED NOTE</div>
+      <h1 id="kimi-k25视觉-agent-与-agent-swarm">Kimi K2.5：视觉 Agent 与 Agent Swarm</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>现实中的 Agent 既要读图、读界面和文档，也要在长任务中拆分工作。若视觉只是文本模型末端附加的输入，图文之间会相互干扰；若单个 agent 串行执行复杂任务，延迟和上下文负担又会快速上升。K2.5 因而同时处理多模态协同与并行编排。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>论文提出联合图文预训练、zero-vision SFT 和联合图文 RL，目标是让文本与视觉能力共同优化，而非先固定一种再补另一种。其 Agent Swarm 允许主模型动态把复杂目标拆成异质子问题，创建领域化子 agent 并并发执行，再汇合中间结果。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>联合训练使视觉 token 和文本 token 进入同一个能力闭环；zero-vision SFT 则在不总是依赖显式视觉监督的条件下保持文字任务质量。Agent Swarm 的关键不是“多开几个会话”，而是任务分解、子任务异质性、并发调度和结果合并。每一环如果没有明确交付物与校验，更多 agent 只会放大冲突和重复工作。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者称 K2.5 覆盖编码、视觉、推理和 agent 评测，并报告 Swarm 相对单 agent 最多降低 4.5 倍延迟。适合多源调研、页面/文档理解、代码库拆解和包含可独立子任务的生产流程。应用时要设置并发上限、共享上下文格式和聚合验收步骤，尤其避免多个 agent 同时写同一资源。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>K2.5 的贡献可分开看：多模态训练解决“看懂并说清”，Swarm 解决“把工作做完得更快”。后者属于系统能力而非模型权重本身，因此复现效果更依赖调度器、工具权限、记忆隔离和评测。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>论文的延迟收益取决于子任务是否可并行、子 agent 成本以及聚合开销。复杂任务可能有强依赖链，强行拆分反而降低质量；多模态公开基准也难完整覆盖真实 GUI、长视频与权限敏感操作。</p>
+<p>并发执行还会使可观测性成为必要条件。系统需要记录每个子任务的输入、工具动作、产物、花费和依赖，才能判断失败来自模型、协调器还是外部服务，并在合并前发现相互矛盾的结论。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">Kimi K2</span>、<span class="wiki-token">Kimi K2.6</span>、<span class="wiki-token">GLM-4.5V</span>、<span class="wiki-token">多 Agent 编排</span> 与 <span class="wiki-token">多模态推理</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2602.02276">https://arxiv.org/abs/2602.02276</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m37-kimi-k2-5/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m37-kimi-k2-5.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2602.02276" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLM-5：从 Vibe Coding 到 Agentic Engineering · 拾贝</title>
+  <meta name="description" content="拾贝对 GLM-5：从 Vibe Coding 到 Agentic Engineering 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Zhipu AI / arXiv / CURATED NOTE</div>
+      <h1 id="glm-5从-vibe-coding-到-agentic-engineering">GLM-5：从 Vibe Coding 到 Agentic Engineering</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>GLM-5 的出发点是把“用自然语言快速生成一个界面”的 vibe coding，推进到需要规划、实现、测试和维护的 agentic engineering。后者要求模型在长上下文与多步工具交互中保持工程目标，同时训练阶段也要能高吞吐地产生并学习这些长轨迹。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>论文称 GLM-5 延续前代 ARC 能力，引入 DSA 以降低训练和推理成本并保持长上下文保真度；后训练采用将生成与训练解耦的异步 RL 基础设施，并提出异步 agent RL 算法。作者的目标是让 RL 能持续从复杂、长时程交互中学习，而不被同步采样和训练相互阻塞。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>异步 RL 把 actor 生成轨迹和 learner 更新参数分开：生成端可以持续探索环境，训练端消费带有延迟的经验，从而提高设备利用率。代价是策略会有滞后，需要控制数据新鲜度、重要性修正和奖励一致性。DSA 在论文叙述中服务于长上下文成本约束；二者共同表明，agent 能力的上限部分由训练系统吞吐决定。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者声称在主要公开基准上取得领先，并特别强调端到端软件工程任务。适合把模型放在有测试、issue、代码仓库和 CI 反馈的工程循环中，而不是只让它生成一次代码。对团队而言，最有价值的验证指标应是任务完成、回归率、审查负担与修复时间，而不是单一代码基准名次。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这份论文把 agent 能力看成训练循环和执行循环共同产物：若没有可持续采样、奖励和回放，长程交互难以成为可靠训练数据；若没有测试与权限边界，模型在真实工程中又无法安全行动。所谓 agentic engineering 因而是模型、基础设施和软件流程的联合设计。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>异步 RL 会引入策略滞后和奖励投机风险，论文的吞吐优势不自动等于所有任务的质量优势。DSA 的实现、上下文保真度和真实成本仍需结合完整实验与独立复现判断；复杂工程任务还受仓库质量和工具环境影响。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">GLM-4.5</span>、<span class="wiki-token">Kimi K2</span>、<span class="wiki-token">Kimi K2.6</span>、<span class="wiki-token">强化学习后训练</span> 与 <span class="wiki-token">Agent Harness</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2602.15763">https://arxiv.org/abs/2602.15763</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m43-glm-5/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m43-glm-5.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2602.15763" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

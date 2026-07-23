@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kimi K2.6：面向长程编码与 Agent Swarm 的开放模型 · 拾贝</title>
+  <meta name="description" content="拾贝对 Kimi K2.6：面向长程编码与 Agent Swarm 的开放模型 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Moonshot AI 官方技术博客 / CURATED NOTE</div>
+      <h1 id="kimi-k26面向长程编码与-agent-swarm-的开放模型">Kimi K2.6：面向长程编码与 Agent Swarm 的开放模型</h1>
+<blockquote>
+<p>文档类型：官方技术博客。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>Kimi K2.6 关注的不是单个补全题，而是需要持续数小时、跨越工具和代码库的工程任务。此类任务的难点在于长上下文稳定性、反复修改后的架构一致性、工具调用成功率，以及当目标可拆分时如何利用并行执行缩短端到端等待。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>官方博客把产品定位为开源编码、长程执行与 Agent Swarm。文中给出自主下载并优化项目、持续多轮修改的案例，并以 Kimi Code Bench 等内部或公开测试说明改进。Swarm 方面，作者称架构可协调至 300 个子 agent 和 4,000 个并发步骤；还描述了主动型 agent 在持续运行、监控和跨应用操作中的使用。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>长程编码依赖反复的“读代码、提出假设、执行工具、测试、修改、再验证”循环，因此工具调用准确性和中间状态记录比单次生成更重要。Swarm 通过动态拆解，让不同 agent 承担检索、分析、写作或生成等异质子任务，协调器再根据技能、工具与失败状态重新分配。博客也将文件转为可复用 skill，实质是在外部化结构和格式知识。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者列举超过 4,000 次工具调用、12 小时执行和多轮优化的工程案例，也报告合作方侧的长上下文与工具成功率观察。适合代码库迁移、性能分析、端到端原型和资料生产流水线。实际部署应当采用分支隔离、测试门禁、产物校验与人工合并；多 agent 不应直接共享生产写权限。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>K2.6 把 Agent Swarm 从概念变成容量规划问题：并发数越大，越需要清晰的任务图、共享产物协议、冲突检测和最终验收。模型升级能减少单步错误，但无法取代工程系统中的版本控制、可观测性和权限边界。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>博客中的案例和合作方评价不等同于独立可复现实验，内部基准也需与公开评测分开看。长运行会放大成本、上下文污染和偶发工具错误；300 子 agent 的能力宣称尤其依赖协调层而非仅模型本体。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">Kimi K2.5</span>、<span class="wiki-token">Kimi K2 Thinking</span>、<span class="wiki-token">SWE-bench</span>、<span class="wiki-token">Agent Harness</span> 与 <span class="wiki-token">多 Agent 编排</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://www.kimi.com/blog/kimi-k2-6">https://www.kimi.com/blog/kimi-k2-6</a></li>
+<li>本地快照：<code>官方 HTML、抽取正文文本；正文随站点渲染保留</code>，目录 <code>raw/papers/m39-kimi-k2-6/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m39-kimi-k2-6.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://www.kimi.com/blog/kimi-k2-6" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

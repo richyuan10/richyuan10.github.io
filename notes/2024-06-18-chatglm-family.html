@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGLM：从 GLM-130B 到 GLM-4 All Tools 的模型家族 · 拾贝</title>
+  <meta name="description" content="拾贝对 ChatGLM：从 GLM-130B 到 GLM-4 All Tools 的模型家族 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Zhipu AI / arXiv / CURATED NOTE</div>
+      <h1 id="chatglm从-glm-130b-到-glm-4-all-tools-的模型家族">ChatGLM：从 GLM-130B 到 GLM-4 All Tools 的模型家族</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>ChatGLM 报告试图回答中文优先的大模型如何从基础对话发展到长上下文和工具使用。难点不只是双语预训练，而是让模型在中文指令、复杂约束和外部工具之间保持一致：会调用工具不等于知道何时调用、调用哪个工具，以及如何把返回值继续用于回答。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>报告聚焦 GLM-4、GLM-4-Air 和 GLM-4-9B。作者称模型在以中英为主、兼含 24 种语言小规模语料的约十万亿 token 上预训练，再经多阶段 SFT 和人类反馈学习完成对齐。GLM-4 All Tools 在此基础上对齐浏览器、Python、文生图和用户自定义函数，目标是根据意图自主选择工具组合。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>这里的关键不是单一架构创新，而是家族化能力分层：较大模型给出能力上界，小模型和长上下文版本服务不同部署成本；后训练把语言模型的文本生成转成带有“工具选择”决策的输出。工具调用需要三个层次：识别是否需要外部能力、生成满足接口约束的参数、把观测结果纳回下一轮推理。报告把这些能力放入统一的对齐流程中评估。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者列举 MMLU、GSM8K、MATH、BBH、GPQA、HumanEval、IFEval 和长上下文测试，并声称 GLM-4 在中文对齐的 AlignBench 上有优势；All Tools 还测量了浏览网页和用 Python 解题。实际适合中英双语客服、数据分析助手、受控网页检索和企业函数编排。落地时应为每个工具增加 schema 校验、超时和审计，不应把模型的自主选择当作授权。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>ChatGLM 的知识价值是说明“模型家族”比单一旗舰模型更接近产品现实：能力、上下文、成本和开放程度需要一起设计。其工具模型也把 agent 的最小闭环写得很清楚：意图识别、函数选择、执行观测、继续生成。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>跨厂商基准分数受提示、版本和工具环境影响，不能据此直接比较真实业务成功率。报告对训练数据细节、工具失败恢复和安全边界的公开程度有限；高风险业务仍须把权限决策放在模型外。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">GLM-130B</span>、<span class="wiki-token">Function Calling</span>、<span class="wiki-token">ReAct</span>、<span class="wiki-token">长上下文</span> 与 <span class="wiki-token">中文对齐</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2406.12793">https://arxiv.org/abs/2406.12793</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m20-chatglm-family/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m20-chatglm-family.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2406.12793" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

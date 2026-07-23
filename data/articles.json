@@ -508,6 +508,27 @@
     "wikiUrl": "notes/2022-04-05-palm.html"
   },
   {
+    "id": "M40",
+    "slug": "2022-10-05-glm-130b",
+    "title": "GLM-130B：百亿级双语模型的稳定训练与 INT4 推理",
+    "date": "2022-10-05",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM",
+      "双语预训练",
+      "训练稳定性",
+      "INT4"
+    ],
+    "topic": "基础模型与预训练",
+    "url": "https://arxiv.org/abs/2210.02414",
+    "sourceId": "arxiv-2210.02414",
+    "sourceName": "Zhipu AI / arXiv",
+    "noteFile": "m40-glm-130b.md",
+    "sourceCard": "sources/papers/cards/m40-glm-130b.md",
+    "rawPath": "raw/papers/m40-glm-130b/",
+    "wikiUrl": "notes/2022-10-05-glm-130b.html"
+  },
+  {
     "id": "P17",
     "slug": "2022-10-06-react",
     "title": "ReAct：交错推理与行动，把语言模型接入环境",
@@ -941,6 +962,27 @@
     "wikiUrl": "notes/2024-06-17-deepseek-coder-v2.html"
   },
   {
+    "id": "M20",
+    "slug": "2024-06-18-chatglm-family",
+    "title": "ChatGLM：从 GLM-130B 到 GLM-4 All Tools 的模型家族",
+    "date": "2024-06-18",
+    "readingTime": "12 分钟",
+    "tags": [
+      "ChatGLM",
+      "GLM-4",
+      "中文",
+      "工具调用"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://arxiv.org/abs/2406.12793",
+    "sourceId": "arxiv-2406.12793",
+    "sourceName": "Zhipu AI / arXiv",
+    "noteFile": "m20-chatglm-family.md",
+    "sourceCard": "sources/papers/cards/m20-chatglm-family.md",
+    "rawPath": "raw/papers/m20-chatglm-family/",
+    "wikiUrl": "notes/2024-06-18-chatglm-family.html"
+  },
+  {
     "id": "P11",
     "slug": "2024-06-18-autoregressive-scaling",
     "title": "P11 待核验：自回归生成模型 Scaling Laws 原始材料",
@@ -1134,6 +1176,27 @@
     "sourceCard": "sources/papers/cards/m18-deepseek-r1.md",
     "rawPath": "raw/papers/m18-deepseek-r1/",
     "wikiUrl": "notes/2025-01-22-deepseek-r1.html"
+  },
+  {
+    "id": "M36",
+    "slug": "2025-01-22-kimi-k1-5",
+    "title": "Kimi k1.5：以长上下文 RL 扩展推理能力",
+    "date": "2025-01-22",
+    "readingTime": "12 分钟",
+    "tags": [
+      "Kimi",
+      "RL",
+      "长思维链",
+      "多模态"
+    ],
+    "topic": "推理与强化学习",
+    "url": "https://arxiv.org/abs/2501.12599",
+    "sourceId": "arxiv-2501.12599",
+    "sourceName": "Moonshot AI / arXiv",
+    "noteFile": "m36-kimi-k1-5.md",
+    "sourceCard": "sources/papers/cards/m36-kimi-k1-5.md",
+    "rawPath": "raw/papers/m36-kimi-k1-5/",
+    "wikiUrl": "notes/2025-01-22-kimi-k1-5.html"
   },
   {
     "id": "M30",
@@ -1333,6 +1396,48 @@
     "wikiUrl": "notes/2025-06-17-gemini-2-5.html"
   },
   {
+    "id": "M41",
+    "slug": "2025-07-01-glm-4-5v",
+    "title": "GLM-4.5V 与 GLM-4.1V-Thinking：可扩展 RL 的多模态推理",
+    "date": "2025-07-01",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM",
+      "多模态",
+      "RLCS",
+      "GUI Agent"
+    ],
+    "topic": "多模态与 Agent",
+    "url": "https://arxiv.org/abs/2507.01006",
+    "sourceId": "arxiv-2507.01006",
+    "sourceName": "Zhipu AI / arXiv",
+    "noteFile": "m41-glm-4-5v.md",
+    "sourceCard": "sources/papers/cards/m41-glm-4-5v.md",
+    "rawPath": "raw/papers/m41-glm-4-5v/",
+    "wikiUrl": "notes/2025-07-01-glm-4-5v.html"
+  },
+  {
+    "id": "M19",
+    "slug": "2025-07-28-kimi-k2",
+    "title": "Kimi K2：把开源 MoE 推向 Agent 执行",
+    "date": "2025-07-28",
+    "readingTime": "12 分钟",
+    "tags": [
+      "Kimi",
+      "MoE",
+      "Agent",
+      "MuonClip"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://arxiv.org/abs/2507.20534",
+    "sourceId": "arxiv-2507.20534",
+    "sourceName": "Moonshot AI / arXiv",
+    "noteFile": "m19-kimi-k2.md",
+    "sourceCard": "sources/papers/cards/m19-kimi-k2.md",
+    "rawPath": "raw/papers/m19-kimi-k2/",
+    "wikiUrl": "notes/2025-07-28-kimi-k2.html"
+  },
+  {
     "id": "M04",
     "slug": "2025-08-07-gpt-5-system-card",
     "title": "GPT-5：路由式统一系统与安全完成策略",
@@ -1353,6 +1458,27 @@
     "sourceCard": "sources/papers/cards/m04-gpt-5-system-card.md",
     "rawPath": "raw/papers/m04/",
     "wikiUrl": "notes/2025-08-07-gpt-5-system-card.html"
+  },
+  {
+    "id": "M21",
+    "slug": "2025-08-08-glm-4-5",
+    "title": "GLM-4.5：把推理、编码与 Agent 统一为 ARC",
+    "date": "2025-08-08",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM-4.5",
+      "MoE",
+      "推理",
+      "代码 Agent"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://arxiv.org/abs/2508.06471",
+    "sourceId": "arxiv-2508.06471",
+    "sourceName": "Zhipu AI / arXiv",
+    "noteFile": "m21-glm-4-5.md",
+    "sourceCard": "sources/papers/cards/m21-glm-4-5.md",
+    "rawPath": "raw/papers/m21-glm-4-5/",
+    "wikiUrl": "notes/2025-08-08-glm-4-5.html"
   },
   {
     "id": "M31",
@@ -1421,6 +1547,27 @@
     "wikiUrl": "notes/2025-12-02-deepseek-v3-2.html"
   },
   {
+    "id": "M42",
+    "slug": "2025-12-22-glm-4-7",
+    "title": "GLM-4.7：面向 Agentic Coding 的官方技术说明",
+    "date": "2025-12-22",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM",
+      "代码 Agent",
+      "工具使用",
+      "推理"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://z.ai/blog/glm-4.7",
+    "sourceId": "zai-glm-4-7",
+    "sourceName": "Z.ai 官方技术博客",
+    "noteFile": "m42-glm-4-7.md",
+    "sourceCard": "sources/papers/cards/m42-glm-4-7.md",
+    "rawPath": "raw/papers/m42-glm-4-7/",
+    "wikiUrl": "notes/2025-12-22-glm-4-7.html"
+  },
+  {
     "id": "M47",
     "slug": "2026-01-06-mimo-v2-flash",
     "title": "MiMo-V2-Flash：以稀疏架构和蒸馏换取快速 Agent 推理",
@@ -1441,6 +1588,48 @@
     "sourceCard": "sources/papers/cards/m47-mimo-v2-flash.md",
     "rawPath": "raw/papers/m47/",
     "wikiUrl": "notes/2026-01-06-mimo-v2-flash.html"
+  },
+  {
+    "id": "M37",
+    "slug": "2026-02-02-kimi-k2-5",
+    "title": "Kimi K2.5：视觉 Agent 与 Agent Swarm",
+    "date": "2026-02-02",
+    "readingTime": "12 分钟",
+    "tags": [
+      "Kimi",
+      "多模态",
+      "Agent Swarm",
+      "并行"
+    ],
+    "topic": "多模态与 Agent",
+    "url": "https://arxiv.org/abs/2602.02276",
+    "sourceId": "arxiv-2602.02276",
+    "sourceName": "Moonshot AI / arXiv",
+    "noteFile": "m37-kimi-k2-5.md",
+    "sourceCard": "sources/papers/cards/m37-kimi-k2-5.md",
+    "rawPath": "raw/papers/m37-kimi-k2-5/",
+    "wikiUrl": "notes/2026-02-02-kimi-k2-5.html"
+  },
+  {
+    "id": "M43",
+    "slug": "2026-02-17-glm-5",
+    "title": "GLM-5：从 Vibe Coding 到 Agentic Engineering",
+    "date": "2026-02-17",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM-5",
+      "异步 RL",
+      "Agentic Engineering",
+      "长上下文"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://arxiv.org/abs/2602.15763",
+    "sourceId": "arxiv-2602.15763",
+    "sourceName": "Zhipu AI / arXiv",
+    "noteFile": "m43-glm-5.md",
+    "sourceCard": "sources/papers/cards/m43-glm-5.md",
+    "rawPath": "raw/papers/m43-glm-5/",
+    "wikiUrl": "notes/2026-02-17-glm-5.html"
   },
   {
     "id": "M33",
@@ -1509,6 +1698,27 @@
     "wikiUrl": "notes/2026-04-17-qwen3-5-omni.html"
   },
   {
+    "id": "M39",
+    "slug": "2026-04-20-kimi-k2-6",
+    "title": "Kimi K2.6：面向长程编码与 Agent Swarm 的开放模型",
+    "date": "2026-04-20",
+    "readingTime": "12 分钟",
+    "tags": [
+      "Kimi",
+      "代码 Agent",
+      "长程任务",
+      "Agent Swarm"
+    ],
+    "topic": "模型技术报告",
+    "url": "https://www.kimi.com/blog/kimi-k2-6",
+    "sourceId": "moonshot-kimi-k2-6",
+    "sourceName": "Moonshot AI 官方技术博客",
+    "noteFile": "m39-kimi-k2-6.md",
+    "sourceCard": "sources/papers/cards/m39-kimi-k2-6.md",
+    "rawPath": "raw/papers/m39-kimi-k2-6/",
+    "wikiUrl": "notes/2026-04-20-kimi-k2-6.html"
+  },
+  {
     "id": "M05",
     "slug": "2026-04-23-gpt-5-5-system-card",
     "title": "GPT-5.5：面向真实工作的工具执行与预部署安全",
@@ -1575,6 +1785,27 @@
     "wikiUrl": "notes/2026-04-27-mimo-v2-5-pro.html"
   },
   {
+    "id": "M44",
+    "slug": "2026-06-16-glm-5-2",
+    "title": "GLM-5.2：面向长程工程任务的百万 token 上下文",
+    "date": "2026-06-16",
+    "readingTime": "12 分钟",
+    "tags": [
+      "GLM-5.2",
+      "百万上下文",
+      "稀疏注意力",
+      "推测解码"
+    ],
+    "topic": "长上下文与推理效率",
+    "url": "https://z.ai/blog/glm-5.2",
+    "sourceId": "zai-glm-5-2",
+    "sourceName": "Z.ai 官方技术博客",
+    "noteFile": "m44-glm-5-2.md",
+    "sourceCard": "sources/papers/cards/m44-glm-5-2.md",
+    "rawPath": "raw/papers/m44-glm-5-2/",
+    "wikiUrl": "notes/2026-06-16-glm-5-2.html"
+  },
+  {
     "id": "M06",
     "slug": "2026-06-26-gpt-5-6-preview-system-card",
     "title": "GPT-5.6 Preview：Agent 自主性上升后的分层防护",
@@ -1617,6 +1848,27 @@
     "sourceCard": "sources/papers/cards/m13-claude-sonnet-5-system-card.md",
     "rawPath": "raw/papers/m13-claude-sonnet-5-system-card/",
     "wikiUrl": "notes/2026-06-30-claude-sonnet-5-system-card.html"
+  },
+  {
+    "id": "M38",
+    "slug": "2026-07-13-kimi-k2-thinking",
+    "title": "Kimi K2 Thinking：以工具调用扩展测试时推理",
+    "date": "2026-07-13",
+    "readingTime": "12 分钟",
+    "tags": [
+      "Kimi",
+      "推理模型",
+      "工具调用",
+      "量化"
+    ],
+    "topic": "推理与强化学习",
+    "url": "https://www.kimi.com/blog/kimi-k2-thinking",
+    "sourceId": "moonshot-kimi-k2-thinking",
+    "sourceName": "Moonshot AI 官方技术博客",
+    "noteFile": "m38-kimi-k2-thinking.md",
+    "sourceCard": "sources/papers/cards/m38-kimi-k2-thinking.md",
+    "rawPath": "raw/papers/m38-kimi-k2-thinking/",
+    "wikiUrl": "notes/2026-07-13-kimi-k2-thinking.html"
   },
   {
     "id": "M35",

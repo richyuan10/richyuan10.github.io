@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kimi K2：把开源 MoE 推向 Agent 执行 · 拾贝</title>
+  <meta name="description" content="拾贝对 Kimi K2：把开源 MoE 推向 Agent 执行 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Moonshot AI / arXiv / CURATED NOTE</div>
+      <h1 id="kimi-k2把开源-moe-推向-agent-执行">Kimi K2：把开源 MoE 推向 Agent 执行</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>Kimi K2 的目标不是只把通用问答分数做高，而是让开源模型在软件工程、工具调用和多步任务中可以充当执行主体。此类任务同时受训练稳定性、稀疏模型的有效容量、后训练数据质量和环境交互能力约束：仅扩大参数并不能保证模型会规划、调用工具并根据执行结果修正动作。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>论文报告 K2 为总参数约 1T、每 token 激活 32B 参数的 MoE。预训练采用 MuonClip 优化器，在 Muon 的基础上以 QK-clip 处理训练不稳定问题；作者称其在 15.5T token 训练中没有出现 loss spike。后训练分两条线推进：大规模 agentic 数据合成，以及让模型在真实和合成环境中交互的联合 RL。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>MoE 让每次前向只计算少量专家，从而把总容量与单 token 成本部分分离；MuonClip 针对注意力 Q/K 的数值行为加约束，服务于长训练的稳定性。更关键的是后训练闭环：任务要求模型观察环境、选择动作、读取反馈并继续，而不是在静态答案上做一次性模仿。因此模型能力被定义为“可执行的策略”，工具接口和评测环境也是训练对象的一部分。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者报告 K2 在不启用 extended thinking 的设置下，于 Tau2-Bench 得 66.1、SWE-Bench Verified 得 65.8、SWE-Bench Multilingual 得 47.3，并给出代码、数学和推理基准。更合适的应用是已有明确工具边界的代码代理、工单处理、检索后执行和多步操作；这些场景应把模型置于可回滚的 sandbox 中，而不是直接授予生产权限。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这篇报告的可迁移价值是把“模型训练”和“agent 产品”接在一起：预训练解决通用表征，agentic 数据与 RL 解决状态转移和行动选择，外部工具决定任务是否能闭环。K2 的结果也说明，开源模型的竞争维度已从参数量转为激活规模、训练稳定性和长程执行质量的组合。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>论文中的强结论主要来自作者设定及公开基准，无法直接等同于真实生产成功率。联合 RL 是否依赖特定工具、奖励设计和环境分布，报告中仍需结合复现实验判断；模型权重开放也不自动解决权限控制、成本和工具错误传播。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">Muon</span>、<span class="wiki-token">Mixtral</span>、<span class="wiki-token">ReAct</span>、<span class="wiki-token">强化学习后训练</span> 与 <span class="wiki-token">代码 Agent</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2507.20534">https://arxiv.org/abs/2507.20534</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m19-kimi-k2/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m19-kimi-k2.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2507.20534" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

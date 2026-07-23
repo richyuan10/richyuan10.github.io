@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLM-5.2：面向长程工程任务的百万 token 上下文 · 拾贝</title>
+  <meta name="description" content="拾贝对 GLM-5.2：面向长程工程任务的百万 token 上下文 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Z.ai 官方技术博客 / CURATED NOTE</div>
+      <h1 id="glm-52面向长程工程任务的百万-token-上下文">GLM-5.2：面向长程工程任务的百万 token 上下文</h1>
+<blockquote>
+<p>文档类型：官方技术博客。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>GLM-5.2 的目标不是让模型“能塞进”百万 token，而是在大型代码库、自动化研究与长期调试中持续保持可用的上下文质量。长窗口的主要矛盾是注意力计算、KV cache、检索噪声和随任务时间增长的状态漂移；若没有效率机制，百万上下文很难成为工程上可支付的能力。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>官方技术博客称模型提供稳定的 1M token 上下文和可调 thinking effort。其说明采用每四层稀疏注意力复用同一个 indexer，在 1M 长度下将每 token FLOPs 降低 2.9 倍；同时改进 MTP 层的推测解码，称接受长度最高提升 20%。训练数据特别扩展到代码 agent 的长程场景。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>稀疏注意力不是让每个 token 彼此全连接，而是先通过索引器选择更可能相关的位置，再把昂贵计算集中于这些连接；复用 indexer 进一步压低索引成本。推测解码由轻量预测先生成候选，大模型批量验证，通过得越多，单步延迟越低。thinking effort 则将性能和时延取舍显式暴露给使用者。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者在 FrontierSWE、PostTrainBench、SWE-Marathon 等长程编码评测上比较，并给出 Terminal-Bench 2.1 与 SWE-bench Pro 分数。适合大仓库排障、跨文档研究、长时间编译优化和持续代码 agent。实际使用要配合工作区摘要、检索过滤和阶段性检查点；长窗口不是把所有历史无选择堆入上下文。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这份材料的正确阅读方式是把“上下文长度”分解为容量、选择、计算与可靠性。稀疏注意力和推测解码解决成本，训练场景解决长程行为，但真正的产品可靠性仍要由记忆分层、任务状态机和验证闭环提供。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>这是官方博客，技术和基准细节不如论文完整；长程评测结果对 agent scaffold、上下文管理和工具预算敏感。1M token 仍可能包含无关或冲突信息，模型也无法自动判断所有旧状态是否仍然有效。</p>
+<p>因此评估长上下文时，除最大长度外还应测量关键事实保留、过期信息抵抗、跨阶段任务恢复和实际总成本。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">Transformer</span>、<span class="wiki-token">稀疏注意力</span>、<span class="wiki-token">推测解码</span>、<span class="wiki-token">Kimi K2.6</span> 与 <span class="wiki-token">Agent Harness</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://z.ai/blog/glm-5.2">https://z.ai/blog/glm-5.2</a></li>
+<li>本地快照：<code>官方入口 HTML、官方发布脚本正文；页面为前端脚本渲染</code>，目录 <code>raw/papers/m44-glm-5-2/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m44-glm-5-2.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://z.ai/blog/glm-5.2" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

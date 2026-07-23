@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLM-130B：百亿级双语模型的稳定训练与 INT4 推理 · 拾贝</title>
+  <meta name="description" content="拾贝对 GLM-130B：百亿级双语模型的稳定训练与 INT4 推理 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Zhipu AI / arXiv / CURATED NOTE</div>
+      <h1 id="glm-130b百亿级双语模型的稳定训练与-int4-推理">GLM-130B：百亿级双语模型的稳定训练与 INT4 推理</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>GLM-130B 的问题很工程化：如何开源训练一个百亿级中英双语模型，同时避免大规模训练中常见的 loss spike 和发散，并让昂贵模型能够在相对可负担的 GPU 上推理。对当时的开源生态而言，性能、训练日志与稳定性经验同样稀缺。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>论文发布 130B 双语预训练模型，目标是在英文和中文基准上达到或超过 GPT-3 davinci。作者重点公开模型设计、训练效率与稳定性策略、工程实践以及训练日志。报告还利用其观察到的缩放特性，在无需额外后训练的条件下实现 INT4 量化，声称性能损失很小。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>大模型训练的损失尖峰不是小噪声：一次数值不稳定可能破坏数日算力。论文的价值在于把监控、故障定位、训练策略与工程实现纳入模型工作本身。INT4 则把权重存储和带宽降到低精度，若量化误差受控，就能把部署门槛从数据中心级硬件下移到多张消费级 GPU；但这并不减少完整上下文和 KV cache 的压力。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者报告相对 GPT-3 175B、OPT-175B、BLOOM-176B 和中文基准的比较，并称可在 4 张 RTX 3090 或 8 张 RTX 2080 Ti 上有效推理。它适合用来理解双语基础模型训练、训练稳定性治理和权重量化的边界。今天部署时仍应实测特定 batch、上下文长度和并发下的显存，不要把硬件示例当作通用容量承诺。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>GLM-130B 提醒人们：规模化不只有 scaling law，也有稳定性工程。开源报告最有价值的部分往往不是某个分数，而是失败模式、日志和可复现的系统约束；这也是后来 MoE、长上下文与 agent 训练持续面对的基础问题。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>论文所述模型、硬件和软件栈属于较早时期，今天的框架与量化方法已变化。INT4 的“几乎无损”依赖具体模型和评测，不能外推到任意模型、长上下文或工具调用场景。</p>
+<p>此外，权重量化主要降低模型常驻成本；当上下文很长或并发很高时，KV cache 与调度仍可能成为主导瓶颈。容量评估必须同时测量首 token 延迟、持续吞吐和峰值显存。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">ChatGLM</span>、<span class="wiki-token">Kimi K2</span>、<span class="wiki-token">量化</span>、<span class="wiki-token">训练稳定性</span> 与 <span class="wiki-token">Scaling Laws</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2210.02414">https://arxiv.org/abs/2210.02414</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m40-glm-130b/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m40-glm-130b.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2210.02414" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

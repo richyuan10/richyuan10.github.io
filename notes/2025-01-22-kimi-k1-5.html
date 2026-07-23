@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kimi k1.5：以长上下文 RL 扩展推理能力 · 拾贝</title>
+  <meta name="description" content="拾贝对 Kimi k1.5：以长上下文 RL 扩展推理能力 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Moonshot AI / arXiv / CURATED NOTE</div>
+      <h1 id="kimi-k15以长上下文-rl-扩展推理能力">Kimi k1.5：以长上下文 RL 扩展推理能力</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>预训练可随语料与算力扩展，但高质量 token 终会受限；推理任务则有另一条路径：模型在奖励信号下探索更长的解题轨迹。k1.5 关心的是如何把 RL 真正扩展到多模态长推理，而不依赖复杂的搜索树、价值函数或过程奖励模型。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>作者将长上下文扩展和改进的 policy optimization 作为主轴，报告一个相对简洁的 RL 框架。模型在数学、代码和视觉推理中学习生成长 CoT，并提出 long2short：用长链推理产生的能力或数据，提升短链模型的结果和响应效率。论文强调训练技巧、数据配方与基础设施优化共同决定 RL 是否稳定。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>长 CoT 增加了在回答前试探、回溯和组合中间步骤的空间，RL 用结果奖励推动这些轨迹朝正确解收敛。long2short 的实质不是让短模型复述长思考，而是蒸馏长轨迹中最有用的决策结构，减少部署时的 token 成本。放弃 MCTS、value model 和 process reward model 意味着系统复杂度较低，但也把奖励定义和采样质量放到更关键的位置。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者报告 k1.5 在 AIME 为 77.5、MATH500 为 96.2、Codeforces 达第 94 百分位、MathVista 为 74.9，并声称接近 o1；短链模型在 AIME、MATH500 和 LiveCodeBench 上也有提升。适合答案可自动核验或具有强反馈的数学、代码、结构化视觉任务。企业落地应优先挑选可测试、可判分的子流程，而非把开放式写作直接用于 RL 优化。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这篇论文把“test-time scaling”向前推进到训练阶段：若能用奖励筛出更好的探索轨迹，模型不必仅依赖固定语料。long2short 也提醒系统设计者区分两种目标：训练时允许冗长探索，线上则要为延迟和成本压缩表达。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>基准上的结果依赖奖励可判定性和测试分布；在事实不唯一、评估噪声大的任务中，RL 可能强化投机行为。长 CoT 的真实性、可解释性和跨任务迁移不应只由最终分数判断。</p>
+<p>对知识工作尤其如此：奖励若只看格式完整或某个评审模型的偏好，系统可能学会冗长、迎合而不是核实。因此把可验证的工具结果、引用证据和人工抽检接入奖励，比把“看起来推得很长”当作成功更可靠。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">InstructGPT</span>、<span class="wiki-token">DPO</span>、<span class="wiki-token">推理时扩展</span>、<span class="wiki-token">蒸馏</span> 与 <span class="wiki-token">Kimi K2 Thinking</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2501.12599">https://arxiv.org/abs/2501.12599</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m36-kimi-k1-5/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m36-kimi-k1-5.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2501.12599" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

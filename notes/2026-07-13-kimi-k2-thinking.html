@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kimi K2 Thinking：以工具调用扩展测试时推理 · 拾贝</title>
+  <meta name="description" content="拾贝对 Kimi K2 Thinking：以工具调用扩展测试时推理 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Moonshot AI 官方技术博客 / CURATED NOTE</div>
+      <h1 id="kimi-k2-thinking以工具调用扩展测试时推理">Kimi K2 Thinking：以工具调用扩展测试时推理</h1>
+<blockquote>
+<p>文档类型：官方技术博客。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>Kimi K2 Thinking 将推理模型的测试时扩展从“多生成一些思考 token”推进到“思考与工具动作交错进行”。开放式检索、软件修复和专家问题往往无法在一次内部推理中完成，模型必须在搜索、浏览、代码执行后根据新证据调整计划，并在长链中保持目标不漂移。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>官方博客将其描述为 thinking agent：模型可在数百步中交替推理和使用工具，支持 search、Python 与浏览器。作者称其可连续执行 200 至 300 次工具调用，并用 thinking token 与工具步数共同进行 test-time scaling。为控制部署成本，后训练阶段采用 QAT，在 MoE 部分做 INT4 weight-only 量化，称原生 INT4 推理约可提升两倍生成速度。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>工作流是“思考 -&gt; 搜索/浏览/代码 -&gt; 读取观测 -&gt; 继续思考”。工具不是外挂答案库，而是改变后续上下文的状态转换器；因此模型需要计划、参数生成、证据核验和失败后的重试能力。量化感知训练则把低比特误差纳入训练，使长推理解码不至于因量化而明显退化。两者结合的目标是把长程 agent 变为可运行而非只能演示的系统。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>博客报告带工具 HLE 44.9、BrowseComp 60.2、SWE-Bench Verified 71.3，并举 23 次交错推理与工具调用解数学题的案例。适合资料检索、受控浏览、代码维护和可追溯研究任务。线上需要将工具按读、写、执行分级，给每次运行设置 token、调用数和时间预算，并保存证据链。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这份材料最值得吸收的是推理预算的双维度：token 多并不必然能解决缺外部信息的问题，工具调用多也不保证计划正确。系统应该同时观测任务完成率、无效调用率、证据覆盖与成本，而非只追踪单一推理分数。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>这是官方技术博客，基准配置和对手分数需按其脚注解读；聊天模式会选择更少工具和更少调用轮次，官方也明确提示其表现未必复现完整 agent 评测。长工具链仍可能累积错误、触及不安全操作或耗尽预算。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">ReAct</span>、<span class="wiki-token">Kimi k1.5</span>、<span class="wiki-token">Kimi K2.6</span>、<span class="wiki-token">量化</span> 与 <span class="wiki-token">Agent Harness</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://www.kimi.com/blog/kimi-k2-thinking">https://www.kimi.com/blog/kimi-k2-thinking</a></li>
+<li>本地快照：<code>官方 HTML、抽取正文文本；正文随站点渲染保留</code>，目录 <code>raw/papers/m38-kimi-k2-thinking/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m38-kimi-k2-thinking.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://www.kimi.com/blog/kimi-k2-thinking" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GLM-4.5：把推理、编码与 Agent 统一为 ARC · 拾贝</title>
+  <meta name="description" content="拾贝对 GLM-4.5：把推理、编码与 Agent 统一为 ARC 的中文知识笔记。">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="note-page">
+  <main class="note-shell">
+    <header class="note-header">
+      <a class="note-brand" href="../index.html">拾贝 <span>/ 深加工笔记</span></a>
+      <a class="note-back" href="../index.html#knowledge-map">返回知识地图</a>
+    </header>
+    <article class="note-content reading">
+      <div class="section-kicker">Zhipu AI / arXiv / CURATED NOTE</div>
+      <h1 id="glm-45把推理编码与-agent-统一为-arc">GLM-4.5：把推理、编码与 Agent 统一为 ARC</h1>
+<blockquote>
+<p>文档类型：论文。以下“原作者”部分只陈述来源明确给出的内容；“整理者归纳”用于连接知识库中的概念，不等同于来源结论。</p>
+</blockquote>
+<h2 id="它要解决什么">它要解决什么</h2>
+<p>GLM-4.5 面对的是一个常见取舍：直接回答要低延迟，复杂代码和工具任务又需要较长的推理过程；把两种模式拆成不同模型会增加部署和上下文切换成本。报告将 Agentic、Reasoning、Coding 合称 ARC，主张一个开放 MoE 模型同时覆盖三类工作负载。</p>
+<h2 id="原作者的方法">原作者的方法</h2>
+<p>作者给出总参数 355B、激活参数 32B 的 GLM-4.5，以及总参数 106B 的 Air 版本。训练包括 23T token 的多阶段训练、专家模型迭代与强化学习后训练。模型采用 hybrid reasoning：既能进入 thinking 模式展开推理，也能直接响应，避免简单请求被不必要地拉长。</p>
+<h2 id="核心机制">核心机制</h2>
+<p>稀疏 MoE 用小得多的激活计算承载更大的总容量；hybrid reasoning 则把“是否思考”变成推理时的策略选择。专家模型迭代可以理解为用更强或更专门的行为生成、筛选训练样本，RL 再按任务反馈强化有效轨迹。ARC 的统一点在于：代码修改、工具执行和数学推理都需要长程状态管理，而非仅生成一段文本。</p>
+<h2 id="实验与适用场景">实验与适用场景</h2>
+<p>作者报告 TAU-Bench 70.1、AIME 2024 为 91.0、SWE-bench Verified 为 64.2，并以此比较 agent、推理和编码能力。适合的工作流是按任务风险路由：摘要、查询走直接模式；排障、代码修复、检索执行走 thinking 模式，并在执行层设置预算、测试与人工审批。</p>
+<h2 id="整理者归纳">整理者归纳</h2>
+<p>这份报告的重点不在“一个模型胜过一切”，而在把思考长度视为可控资源。对系统设计者而言，真正需要配置的是任务路由、token/工具预算和成功判据；模型本身只是这个资源调度系统的核心组件。</p>
+<h2 id="限制与待验证点">限制与待验证点</h2>
+<p>ARC 基准覆盖面广但不等于同一真实环境下的端到端可靠性。thinking 与 direct 两模式的切换规则、成本曲线和失败恢复未能由摘要性指标完全说明；开放权重也不替代代码执行的隔离与凭据管理。</p>
+<p>还应把“有推理模式”与“每个任务都应深思”区分开。许多工作流的真正瓶颈是检索质量、测试反馈或权限等待；若系统不先识别这些外部瓶颈，只增加推理 token 可能同时增加延迟、费用和错误自信。</p>
+<h2 id="关联">关联</h2>
+<p>关联 <span class="wiki-token">Kimi K2</span>、<span class="wiki-token">MoE</span>、<span class="wiki-token">强化学习后训练</span>、<span class="wiki-token">SWE-bench</span> 与 <span class="wiki-token">Agent Harness</span>。</p>
+<h2 id="证据来源">证据来源</h2>
+<ul>
+<li>原始来源：<a href="https://arxiv.org/abs/2508.06471">https://arxiv.org/abs/2508.06471</a></li>
+<li>本地快照：<code>PDF、arXiv 页面、UTF-8 文本抽取、SHA-256</code>，目录 <code>raw/papers/m21-glm-4-5/</code>。</li>
+<li>来源卡片：<code>sources/papers/cards/m21-glm-4-5.md</code>。</li>
+</ul>
+
+    </article>
+    <footer class="note-footer">
+      <span>原始材料只作为证据来源保留。</span>
+      <a href="https://arxiv.org/abs/2508.06471" target="_blank" rel="noreferrer">查看原文 &nearr;</a>
+    </footer>
+  </main>
+</body>
+</html>
